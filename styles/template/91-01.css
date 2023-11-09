@@ -1,0 +1,138 @@
+:root {
+    --clr-neutral-100: white;
+    --clr-neutral-300: #c4c3ca ;
+    --clr-neutral-500: #1f2029;
+    --clr-neutral-900: black;
+
+    --bg--body: var(--clr-neutral-500);
+
+    --ff-primary: NEONLEDLight;
+
+    --ff-body: var(--ff-primary);
+    --ff-heading: var(--ff-primary);
+
+    --fw-regualar: 200;
+    --fw-bold: 700;
+
+    --fs-300: 0.8em;
+    --fs-400: 1em;
+    --fs-500: 1.80em;
+    --fs-700: 2.50em;
+
+    --fclr-primary: var(--clr-neutral-300);
+
+    --fs-body: var(--fs-400);
+    --fs-heading: var(--fs-700);
+    --fs-nav: var(--fs-300);    
+}
+
+@font-face {
+
+    font-family: "NEONLEDLight",
+    src: url("../fonts/NEONLEDLight.ttf")
+
+}
+
+@media (min-width: 2em) {
+    :root {
+        --fs-500:2em;
+        --fs-700:3.5em;
+        --fs-400:1.5em;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--clr-neutral-100);
+    font-family: var(--ff-body);
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--bg--body);
+}
+
+#title {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid white;
+}
+
+.mainTitle {
+    color: var(--fclr-primary);
+}
+
+.sidebar {
+    width: 20vw;
+    height: 90vh;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh 1vw;
+    border-right: 1px solid white;
+}
+
+.main {
+    padding:2vw;
+    width: 80vw;
+    height: 90vh;
+    float: right;
+}
+
+.nofloat {
+    clear: both;
+}
+
+.timeline-sidebar {
+    border-radius: .1em;
+    background-color: var(--clr-neutral-100);
+    width: .1em;
+    height: 80vh;
+}
+
+
+.circles {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+
+.circles .circle {
+    width: 1em;
+    height: 1em;
+    border-radius: 100%;
+    background-color: var(--clr-neutral-100);
+    margin: .6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.circle .year>a {
+    position: relative;
+    left: 2em;
+    color: var(--fclr-primary);
+}
+
+.clock {
+    width: 10em;
+    height: 10em;
+    border-radius: 100%;
+    background-color: var(--clr-neutral-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock a {
+    width: 100%;
+    height: 100%;
+}
