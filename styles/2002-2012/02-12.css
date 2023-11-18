@@ -1,0 +1,217 @@
+/* for all page */
+* {
+    color: var(--clr-white);
+}
+
+/* main content of each subgroup */
+/* position of timeline */
+.timeline {
+    position: relative;
+    padding: 6vh 2vw;
+    width: 80vw;
+    border-top: .5em groove #a9a9a9;
+    background: #97979753;
+    color: var(--clr-white);
+}
+
+/* container of real content */
+.detail-timeline {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6.25em;
+}
+
+/* the line in the middle */
+.detail-timeline::before {
+    content: "";
+    position: absolute;
+    width: 1em;
+    top: 0;
+    bottom: 0;
+    left: 49.3%;
+    background-color: #a9a9a9;
+}
+
+/* the point on the line */
+.detail-timeline::after {
+    content: "";
+    position: absolute;
+    width: 2.5em;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-1.25em);
+    border: 1px solid var(--clr-timeline);
+    border-radius: 50%;
+    color: var(--clr-timeline);
+    background: var(--clr-white);
+    z-index: 1;
+}
+
+/* set the contetn at the beggingin of the odd container */
+.timeline > .detail-timeline:nth-child(odd) {
+    justify-content: start;
+    width: 90%;
+}
+
+/* set the contetn at the beggingin of the even container */
+.timeline > .detail-timeline:nth-child(even) {
+    justify-content: end;
+    padding-left: 6.25em;
+}
+
+.info_box {
+    width: 50%;
+    border: .5em groove #a9a9a9;
+    border-radius: .3em;
+}
+
+.info_box > *:not(.text,.img_box,.nofloat) {
+    padding: .5vh .5vw;
+}
+
+.info_box[open] summary {
+    margin-bottom: 1em;
+    color: var(--clr-timeline);
+}
+
+.info_box[open] summary::before {
+    width: 100%;
+}
+
+summary {
+    position: relative;
+    padding: .8em;
+    font-size: 1.5em;
+    text-align: start;
+    background-color: #6b6b6be6;
+    transition: margin-bottom .8s ease-in-out, background-color .5s, color .8s;
+    cursor: pointer;
+}
+
+summary:hover {
+    background-color: var(--clr-black);
+}
+
+/* the line under the container */
+summary::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: .2em;
+    bottom: 0;
+    left: 0;
+    background-color: var(--clr-timeline);
+    transition: width .8s ease-in-out;
+    transition: width .8s ease-in-out;
+}
+
+.img_box {
+    width: 50%;
+    border-radius: 5px;
+}
+
+.float_l {
+    float: left;
+    margin: 0 .5vw;
+}
+
+.float_r {
+    float: right;
+    margin: 0 .5vw;
+}
+
+.nofloat {
+    clear: both;
+}
+
+.center {
+    margin: 1vh auto;
+}
+
+.ul_box {
+    list-style: inside square;
+}
+
+.table {
+    width: 90%;
+    margin: 1em auto;
+    padding: 1em !important;
+    border: .2em solid var(--clr-black);
+    box-shadow: inset 0 0 .5em .1em #a9a9a9;
+}
+
+.table tr {
+    width: 33%;
+    height: 100%;
+}
+
+.table th {
+    width: 33%;
+    height: 100%;
+    padding: .5em;
+    border-right: 1px solid var(--clr-timeline);
+    border-left: 1px solid var(--clr-timeline);
+    border-bottom: 1px solid var(--clr-timeline);
+}
+.table td {
+    width: 33%;
+    height: 100%;
+    padding: .5em;
+    border-right: 1px solid var(--clr-timeline);
+    border-left: 1px solid var(--clr-timeline);
+}
+
+/* media queries */
+@media (max-width: 790px) {
+
+    .overlay {
+        z-index: 2;
+    }
+
+    /* change the dimension of timeline */
+    .timeline {
+        width: 100vw;
+        padding: 6vh 6vw;
+    }
+
+    .detail-timeline {
+        margin-bottom: 4em;
+    }
+
+    .timeline > .detail-timeline:nth-child(odd),
+    .timeline > .detail-timeline:nth-child(even) {
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    .detail-timeline::before {
+        left: 1em;
+    }
+
+    .detail-timeline::after {
+        left: 1.4em;
+        z-index: 1;
+    }
+
+    .info_box {
+        width: 100%;
+        margin-inline: 1.9em 0;
+    }
+
+    summary {
+        font-size: 3vh;
+    }
+
+    .float_l {
+        margin: 1vh 5vw 1vh 0;
+    }
+
+    .float_r {
+        margin: 1vh 0 1vh 5vw;
+    }
+}

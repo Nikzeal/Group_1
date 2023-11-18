@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="../../templates/reset.css"> <!-- css reset -->
+    <link rel="stylesheet" href="../../styles/2002-2012/home_02-12.css"> <!-- css of homepage -->
+    <link rel="stylesheet" href="../../styles/2002-2012/02-12.css"> <!-- css of each subpage -->
+</head>
+
+<body>
+    <!-- "header" -->
+    <div id="title">
+        <!-- Your title -->
+        <h1 class="mainTitle">Title Topic</h1>
+    </div>
+
+    <!-- container which contain all main contnet -->
+    <div class="container">
+        <!-- button to open hamburger menu -->
+        <span id="hamburger" onclick="openNav()">&#9776;</span>
+
+        <!-- mobile sidebar -->
+        <div id="mobile_sidebar" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <div class="side-hero">
+                    <ul>
+                        <li class="home"><a href="../main/index.html">Home</a></li>
+                        <li class="about"><a href="#">About</a></li>
+                        <li class="source"><a href="#">Sources</a></li>
+                        <li class="contact"><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="timeline-sidebar">
+                        <div class="circles">
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2002</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2003</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2004</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2005</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2006</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2007</a>
+                            </div>
+                            <div class="circle">
+                                <a href="./2008.html">2008</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2009</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2010</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2011</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2012</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main sidebar -->
+        <div class="sidebar">
+            <div class="side-hero">
+                <div class="clock-container">
+                    <div class="clock-hero">
+                        <div class="clock">
+                            <div class="hand"></div>
+                        </div>
+                    </div>
+                    <div class="menu-hero">
+                        <ul>
+                            <li class="home"><a href="./home_02-12.html">Home</a></li>
+                            <li class="about"><a href="">About</a></li>
+                            <li class="source"><a href="">Sources</a></li>
+                            <li class="contact"><a href="">Contact</a></li>
+                        </ul>
+                    </div> 
+                </div> 
+                <div class="timeline-sidebar">
+                    <div class="circles">
+                        <div class="circle">
+                            <a href="../../html/template/template.html">2002</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">2003</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">2004</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">2005</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">2006</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">2007</a>
+                        </div>
+                        <div class="circle">
+                            <a href="./2008.html">2008</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">2009</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">2010</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">2011</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">2012</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main content of each group -->
+        <div class="timeline">
+            <!-- every time you want to create a new container for the content you have to copy and paste this container and all the container inside it -->
+            <div class="detail-timeline">
+                <!-- infobox with examples of images positioned on the left or right with the text next to them, or positioned in the center without text -->
+                <details class="info_box">
+                    <!-- text which in view always (mayme a sub topic, keyword or nothing) -->
+                    <summary>Item 1</summary>
+                    <p class="text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus deleniti, tempore soluta illum exercitationem molestias maxime labore. Illum, alias delectus!
+                    </p>
+                    <!-- if you want to put the image on the left use these class and the put a div with the class "nofloat" after the text (look under) -->
+                    <img src="../../resources/main/placeholder.png" alt="" class="img_box float_l">
+                    <p class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, quibusdam ipsam modi, repellat totam quisquam, error quis temporibus laborum ad odio corporis atque asperiores saepe unde dicta perferendis autem vel!
+                    </p>
+                    <div class="nofloat"></div>
+                    <p class="text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima nostrum accusamus aspernatur, consequuntur earum, dolorem fugiat veniam, quae ipsum beatae velit provident consectetur voluptas assumenda! Fugit saepe dolorem officiis quibusdam!
+                    </p>
+                    <!-- if you want to put the image on the right use these class and the put a div with the class "nofloat" after the text (look under) -->
+                    <img src="../../resources/main/placeholder.png" alt="" class="img_box float_r">
+                    <p class="text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic fuga, iure tenetur sit amet dicta in qui! Quos eos est nemo sed tempore quae fugiat, quisquam, asperiores perspiciatis, repellendus sint!
+                    </p>
+                    <div class="nofloat"></div>
+                    <p class="text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid explicabo inventore incidunt, autem molestiae ipsam consequatur molestias libero at facere consequuntur voluptatem unde rerum odio numquam laudantium minima aperiam. Provident.
+                    </p>
+                    <!-- if you want to put the image on the center use these class -->
+                    <img src="../../resources/main/placeholder.png" alt="" class="img_box center">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quidem ad provident? Eaque fugiat enim, illo tempore velit iure eum quo, pariatur est maxime culpa temporibus doloribus minima dolor quisquam.
+                    </p>
+                </details>
+            </div>
+            <div class="detail-timeline">
+                <details class="info_box">
+                    <!-- infobox with an example of ul -->
+                    <summary>Item 2</summary>
+                    <p class="text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dignissimos minima quasi veniam illum sit perspiciatis libero ullam, ad enim in cum magnam consectetur! Doloremque inventore deserunt facere ad ab.
+                    </p>
+                    <ul class="ul_box">
+                        <li>Ciao 1</li>
+                        <li>Ciao 2</li>
+                        <li>Ciao 3</li>
+                        <li>Ciao 4</li>
+                    </ul>
+                </details>
+            </div>
+
+            <!-- inforbox with an axample of table -->
+            <div class="detail-timeline">
+                <details class="info_box">
+                    <summary>Item 3</summary>
+                    <p class="text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima repudiandae assumenda nesciunt velit ullam quos repellendus, harum iste vitae perferendis veritatis ducimus alias cupiditate aperiam iure nulla. Aliquid, sint voluptate!
+                    </p>
+                    <table class="table">
+                        <tr>
+                            <th>lorem</th>
+                            <th>lorem</th>
+                            <th>lorem</th>
+                        </tr>
+                        <tr>
+                            <td>lorem</td>
+                            <td>lorem</td>
+                            <td>lorem</td>
+                        </tr>
+                        <tr>
+                            <td>lorem</td>
+                            <td>lorem</td>
+                            <td>lorem</td>
+                        </tr>
+                        <tr>
+                            <td>lorem</td>
+                            <td>lorem</td>
+                            <td>lorem</td>
+                        </tr>
+                        <tr>
+                            <td>lorem</td>
+                            <td>lorem</td>
+                            <td>lorem</td>
+                        </tr>
+                        <tr>
+                            <td>lorem</td>
+                            <td>lorem</td>
+                            <td>lorem</td>
+                        </tr>
+                    </table>
+                </details>
+            </div>
+            <div class="detail-timeline">
+                <details class="info_box">
+                    <summary>Item 4</summary>
+                    <p class="text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus deleniti, tempore soluta illum exercitationem molestias maxime labore. Illum, alias delectus!
+                    </p>
+                </details>
+            </div>
+            <div class="detail-timeline">
+                <details class="info_box">
+                    <summary>Item 5</summary>
+                    <p class="text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus deleniti, tempore soluta illum exercitationem molestias maxime labore. Illum, alias delectus!
+                    </p>
+                </details>
+            </div>
+            <div class="detail-timeline">
+                <details class="info_box">
+                    <summary>Item 6</summary>
+                    <p class="text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus deleniti, tempore soluta illum exercitationem molestias maxime labore. Illum, alias delectus!
+                    </p>
+                </details>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <address>Your name and surname</address>
+        <p>My pages:
+            <a>name-of-other-page-of-mine</a> /
+            <a>name-of-other-page-of-mine</a> /
+            <a>name-of-other-page-of-mine</a>
+        </p>
+    </footer>
+
+    <!-- script for mobile sidebar -->
+    <script>
+        function openNav() {
+            document.getElementById("mobile_sidebar").style.width = "100%";
+        }
+        
+        function closeNav() {
+            document.getElementById("mobile_sidebar").style.width = "0%";
+        }
+    </script>
+
+    <!-- script for the clock -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../../templates/Clock/script.js"></script>
+</body>
+</html>

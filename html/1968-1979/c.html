@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vasyl Damian"/>
+    <title>The C Programming Language</title>
+    <link rel="stylesheet" href="../../templates/reset.css"> <!-- reset css -->
+    <link rel="stylesheet" href="../../templates/Clock/style.css">
+    <link rel="stylesheet" href="../../styles/1968-1979/68-79.css"> 
+</head>
+
+<body>
+    <div id="title">
+        <!-- Your title -->
+        <h1 class="mainTitle">The C Programming Language</h1>
+    </div>
+    
+    <div class="container">
+        <!-- button to open hamburger menu -->
+        <span id="hamburger" onclick="openNav()">&#9776;</span>
+
+        <!-- mobile sidebar -->
+        <div id="mobile_sidebar" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <div class="side-hero">
+                    <ul>
+                        <li class="home"><a href="../main/index.html">Home</a></li>
+                        <li class="about"><a href="#">About</a></li>
+                        <li class="source"><a href="#">Sources</a></li>
+                        <li class="contact"><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="timeline-sidebar">
+                        <div class="circles">
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2002</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2003</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2004</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2005</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2006</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2007</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2008</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2009</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2010</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2011</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2012</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main sidebar -->
+        <div class="sidebar">
+            <div class="side-hero">
+                <div class="clock-container">
+                    <div class="clock-hero">
+                        <div class="clock">
+                            <div class="hand"></div>
+                        </div>
+                    </div>
+                    <div class="menu-hero">
+                        <ul>
+                            <li class="home"><a href="../main/index.html">Home</a></li>
+                            <li class="about"><a href="">About</a></li>
+                            <li class="source"><a href="">Sources</a></li>
+                            <li class="contact"><a href="">Contact</a></li>
+                        </ul>
+                    </div> 
+                </div> 
+                <div class="timeline-sidebar">
+                    <div class="circles">
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- main content where you can put yours informations -->
+        <div class="main"> <!-- MAIN DIV -->
+            <!-- <div class="card" id="column-mobile"> -->
+            <!--     !CITING SOURCES! -->
+            <!--     <br> -->
+            <!--     <a class="link" target="_blank" href="https://en.wikipedia.org/wiki/C_(programming_language)">C at Wikipedia</a> -->
+            <!--     <br> -->
+            <!--     <a class="link" target="_blank" href="https://www.bell-labs.com/usr/dmr/www/bintro.html">The Programming Language B</a> -->
+            <!-- </div> -->
+            <div class="card card-image">
+                <a class="linked-card">
+                    <h2 class="sub_title">History</h2>
+                    <div>
+                        <p>
+                            The C Programming Language was created in 1972 at Bell Labs by Dennis Ritchie,
+                        very tied with the Unix operating system, which was developed with his colleague Ken Thompson,
+                            both are used very widely even today.
+                            Originally it was implemented in assembly language for a PDP-7, incorporating suggestions from their colleagues,
+                            and eventually they ported it to a PDP-11.
+                        </p>
+                        <div class="image">
+                            <img src='../../resources/1968-1979/thompson_and_ritchie.jpg' width="250em" alt=''/>
+                            <p>Ken Thompson and Dennis Ritchie</p>
+                        </div>
+                    <p>
+                        Thompson wanted a programming language for developing to the new platform, creating a stripped version of BCPL ("Basic Compiled Programming Language"), which he made less wordy, which he called B.
+                        In 1971, Ritchie started to improve on B to utilize the features of the more powerful PDP-11 machine, which was in origin called NB ("New B"). Through to 1972 new additions were added, such as richer types, ability to generate pointers to other types, arrays of all types and types to be returned. It was renamed to C.
+                    </p>
+                </div>
+                </a>
+            </div>
+    
+            <div class="two-column-card" id="column-card-mobile">
+                <div class="column" id="column-mobile">
+                    <h2 class="sub_title">Before C</h2>
+                    <p>
+                        Before C came to light, B was developed as a typeless language for use on Multics, designed for recursive, non-numeric, machine-independent applications.
+                        They involved complex logical decision making, and processing of integers, characters, and bit strings.
+                        But with ASCII machines becoming more common, the typeless nature was seen as a disadvantage, which has brought forth the C programming language.
+                    </p>
+                </div>
+                <div class="column" id="column-mobile">
+                    <h2 class="sub_title">After C</h2>
+                    <p>
+                        Many later languages have borrowed from C, such as C++, C#, Java, JavaScript, Ruby and Rust.
+                        During the late 1970s, versions of C were implemented for a wide variety of mainframe computers, including the IBM PC, which has increased its popularity.
+                        In 1983, the American National Standards Institute (ANSI) formed a committee to establish a standard specification of C.
+                        In 1990, the ANSI C standard was adopted by the International Organization for Standardization (ISO).
+                    </p>
+                </div>
+            </div>
+
+            <div class="card card-image">
+                <h2 class="sub_title">The impact of C</h2>
+                <p>
+                    C is widely used for systems programming in implementing operating systems and embedded systems applications for several reasons:
+                </p>
+                <div class="image">
+                    <img src='../../resources/1968-1979/c_usage.jpg' width="750em" alt=''/>
+                    <p>What uses C?</p>
+                </div>
+                    <ul>
+                        <li>The code does not require many system features, and can be invoked with a boot code;</li>
+                        <li>Statements and expressions map well on to sequences of instructions: low run-time demand on the system and faster execution times;</li>
+                        <li>C can use many features of target CPUs, even of more esotheric types;</li>
+                        <li>Direct control over memory allocation and deallocation;</li>
+                        <li>Very mature and broad ecosystem: many drivers already exist in C, which reduces incentive to use another language.</li>
+                    </ul>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <address>Vasyl Damian</address>
+        <p>My pages:
+            <a class="link" href="touchscreen.html">Touchscreen</a>
+        </p>
+    </footer>
+
+    <!-- script for mobile sidebar -->
+    <script>
+        function openNav() {
+            document.getElementById("mobile_sidebar").style.width = "100%";
+        }
+        
+        function closeNav() {
+            document.getElementById("mobile_sidebar").style.width = "0%";
+        }
+        </script>
+    
+    <!-- script for the clock -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../../templates/Clock/script.js"></script>
+</body>
+</html>

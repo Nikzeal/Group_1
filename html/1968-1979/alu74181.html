@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="../../templates/reset.css"> <!-- reset css -->
+    <link rel="stylesheet" href="../../templates/Clock/style.css">
+    <link rel="stylesheet" href="../../styles/1968-1979/68-79.css"> 
+</head>
+
+<body>
+    <div id="title">
+        <!-- Your title -->
+        <h1 class="mainTitle">ALU 74181</h1>
+    </div>
+    
+    <div class="container">
+        <!-- button to open hamburger menu -->
+        <span id="hamburger" onclick="openNav()">&#9776;</span>
+
+        <!-- mobile sidebar -->
+        <div id="mobile_sidebar" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <div class="side-hero">
+                    <ul>
+                        <li class="home"><a href="../main/index.html">Home</a></li>
+                        <li class="about"><a href="#">About</a></li>
+                        <li class="source"><a href="#">Sources</a></li>
+                        <li class="contact"><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="timeline-sidebar">
+                        <div class="circles">
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2002</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2003</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2004</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2005</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2006</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2007</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2008</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2009</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2010</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2011</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2012</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main sidebar -->
+        <div class="sidebar">
+            <div class="side-hero">
+                <div class="clock-container">
+                    <div class="clock-hero">
+                        <div class="clock">
+                            <div class="hand"></div>
+                        </div>
+                    </div>
+                    <div class="menu-hero">
+                        <ul>
+                            <li class="home"><a href="../main/index.html">Home</a></li>
+                            <li class="about"><a href="">About</a></li>
+                            <li class="source"><a href="">Sources</a></li>
+                            <li class="contact"><a href="">Contact</a></li>
+                        </ul>
+                    </div> 
+                </div> 
+                <div class="timeline-sidebar">
+                    <div class="circles">
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- main content where you can put yours informations -->
+        <div class="main">
+            <div class="card">
+                <h2 class="sub_title">General info</h2>
+                <p>
+                    The ALU 74181 is the first complete ALU on a single chip.
+                    It was introduced in 1970 by Texas Instruments as an ALU chip that placed a complete 4-bit ALU on a TTL chip.
+                    Its invention simplified the design of a minicomputer processor and made it more compact,
+                    so that the chip was widely used in early computer and microprocessor systems.
+                </p>
+                <div class="image" width="200em">
+                    <img src="../../resources/1968-1979/ALU_INSIDE.jpeg" alt="ALU inside">
+                    <p>The ALU 74181 inside photo</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2 class="sub_title">Features and functionality</h2>
+                <p>
+                    74181 can perform arithmetic and logic operations on 4-bit binary numbers.
+                    The functions divided in 2: 16 - arithmetic and 16 - logic functions.
+                    It incorporated carry lookahead logic for high-performance operation.
+                    <br><br>
+                    As you can see <a href="#alu-funcs">below<sup>*</sup></a>, the ALU includes many strange operations like A MINUS B MINUS 1 or (A NOR B)`.
+                    What for do they exist? How can I use it? Is it needed?
+                    <br>
+                    So the answer is simple, 
+                    if you have a Boolean function f(A,B) on one-bit inputs,
+                    there are 4 rows in the truth table. 
+                    Each row can output 0 or 1.
+                    So there are 2^4 = 16 possible functions.
+                    Extend these to 4 bits, 
+                    and these are exactly the 16 logic functions of the 74181,
+                    from trivial 0 and 1 to expected logic like A AND B to contrived operations like NOT A AND B.
+                    These 16 functions are selected by the S0-S3 select inputs.
+                    <br>
+                    The same extension for the Arithmetic functions.
+                    For example f(A,B) = NOT (A OR B). 
+                    Then each bit of A PLUS f(A,B) will always be 1 except in the case where A is 0 and B is 1,
+                    so the result of the sum is A OR NOT B.
+                    Even though you're doing addition, 
+                    the result is a logical function since no carry can be generated.
+                    <br>
+                    By this we can say that some of Arithmetic functions are just extension for Logic functions.
+                    <div class="image" id="alu-funcs">
+                        <img src="../../resources/1968-1979/ALU_FUNCS.png" alt='ALU Functions'/>
+                        <p>ALU 74181 functionality<sup>*</sup></p>
+                    </div>
+                </p>
+            </div>
+
+            <div class="card">
+                <h2 class="sub_title">Cascading and Use Cases</h2>
+                <p>
+                    The 74181 ALU can be cascaded to create larger ALUs or to perform operations on wider binary numbers.
+                    By connecting several 74181 ALUs together,
+                    you can create ALUs with larger bit widths,
+                    e.g. 8-bit or 16-bit ALUs. 
+                    This allows more complex calculations and operations to be carried out.
+
+                    The 74181 ALU was commonly used in minicomputers in the past,
+                    including popular models such as the PDP-11, the Xerox Alto and the VAX-11/780.
+                    It formed the arithmetic and logic core of these minicomputers, 
+                    enabling them to perform a wide range of calculations and operations.
+
+                    <div class="image">
+                        <img src="../../resources/1968-1979/ALU_DIP.webp" alt="ALU 74181 DIP">
+                        <p>ALU 74181 DIP (from <a href="https://electra.store/product/74181-dip-4-bit-arithmetic-logic-unit-and-function-generator/">Electra store</a>)</p>
+                    </div>
+                </p>
+            </div>
+
+            <div class="card">
+                <h2 class="sub_title">Troubleshooting and Limitations</h2>
+                <p>
+                    When working with the 74181 ALU,
+                    it is important to consider that it uses signed numbers represented in two's complement.
+                    This means that certain operations, 
+                    such as adding a positive number to the maximum positive number,
+                    may result in unexpected behavior.
+                    It is necessary to understand the principles of two's complement representation and handle the carry and overflow conditions appropriately
+                </p>
+            </div>
+
+            
+            <h2 class="sub_title" style="margin-top: 2vh; margin-bottom: .5vh;">Other interesting sources</h2>
+            <div class="two-column-card" id="column-card-mobile">
+                <a class="linked-card" href="https://www.bigmessowires.com/bmow1/">
+                    <div class="column" id="column-mobile">
+                        <h2 class="sub_title">Big mess'owires</h2>
+                        <p>
+                            This is interesting webpage of one enthusiast who made his own computer from scratch.
+                            He used the analog of ALU 74181.
+                        </p>
+                        <div class="image">
+                            <img src="../../resources/1968-1979/SOURCE_1.png" alt=''>
+                            <p>Home made computer</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="linked-card" href="https://hackaday.io/project/189505-74181-4-bit-alu-without-transistors">
+                    <div class="column" id="column-mobile">
+                        <h2 class="sub_title">Hackaday</h2>
+                        <p>
+                            Here is the webpage about a building 74181 ALU without transistors.
+
+                        </p>
+                        <div class="image">
+                            <img src="../../resources/1968-1979/SOURCE_2.jpeg" width="200em" alt=''/>
+                            <p>Part of the ALU 74181</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="card">
+                <h2 class="sub_title">Conclusion</h2>
+                <p>
+                    The 74181 ALU was a groundbreaking development in computer processor design,
+                    as it was the first complete ALU to be integrated onto a single chip.
+                    It simplified the design of minicomputer processors and made them more compact.
+                    Although it is no longer used in commercial products, but you can find its analogs on Internet.
+                    The 74181 is still recognized for its historical significance and is referenced in educational materials.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <address>Valentyn Levytskyi</address>
+        <p>My pages:
+            <a href="alu74181.html">ALU 74181</a> /
+            <a href="game-of_life.html">Game of Life</a> /
+            <a href="intel-amd-foundation.html">Intel and AMD foundation</a> /
+            <a href="apranet-first-message.html">ARPANET's first message</a>
+        </p>
+    </footer>
+    
+    <!-- script for mobile sidebar -->
+    <script>
+        function openNav() {
+            document.getElementById("mobile_sidebar").style.width = "100%";
+        }
+        
+        function closeNav() {
+            document.getElementById("mobile_sidebar").style.width = "0%";
+        }
+        </script>
+    
+    <!-- script for the clock -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../../templates/Clock/script.js"></script>
+</body>
+</html>

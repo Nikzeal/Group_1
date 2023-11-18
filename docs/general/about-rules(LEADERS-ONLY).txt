@@ -1,0 +1,15 @@
+The sidebar (Yhoshua):
+    - Clock with Home About Ref
+    - Timeline with 10 years
+    - Sidebar must be responsive (the hamburger)
+
+Every leader:
+    - Homepage: Simone, Sebastiano (?)
+    - Group1 Home: Alessandra (in collaboration with group!!!)
+    - Group2 Home: Noah (in collaboration with group!!!)
+    - Group3 Home: Nicolo (in collaboration with group!!!)
+    - Group4 Home: Simone (in collaboration with group!!!)
+    - Group5 Home: Sebastiano (in collaboration with group!!!)
+
+For the requested pages from the professor:
+    - Alessandra: page table with the names and the titles

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="../../templates/reset.css"> <!-- reset css -->
+    <link rel="stylesheet" href="../../templates/Clock/style.css">
+    <link rel="stylesheet" href="../../styles/1968-1979/68-79.css"> 
+</head>
+
+<body>
+    <!-- "header" -->
+    <div id="title">
+        <!-- Your title -->
+        <h1 class="mainTitle">Conway's Game of Life</h1>
+    </div>
+
+    <!-- content -->
+    <div class="container">
+        <!-- button to open hamburger menu -->
+        <span id="hamburger" onclick="openNav()">&#9776;</span>
+
+        <!-- mobile sidebar -->
+        <div id="mobile_sidebar" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <div class="side-hero">
+                    <ul>
+                        <li class="home"><a href="../main/index.html">Home</a></li>
+                        <li class="about"><a href="#">About</a></li>
+                        <li class="source"><a href="#">Sources</a></li>
+                        <li class="contact"><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="timeline-sidebar">
+                        <div class="circles">
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2002</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2003</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2004</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2005</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2006</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2007</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2008</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2009</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2010</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2011</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../../html/template/template.html">2012</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main sidebar -->
+        <div class="sidebar">
+            <div class="side-hero">
+                <div class="clock-container">
+                    <div class="clock-hero">
+                        <div class="clock">
+                            <div class="hand"></div>
+                        </div>
+                    </div>
+                    <div class="menu-hero">
+                        <ul>
+                            <li class="home"><a href="../main/index.html">Home</a></li>
+                            <li class="about"><a href="">About</a></li>
+                            <li class="source"><a href="">Sources</a></li>
+                            <li class="contact"><a href="">Contact</a></li>
+                        </ul>
+                    </div> 
+                </div> 
+                <div class="timeline-sidebar">
+                    <div class="circles">
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../../html/template/template.html">1960</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- main content where you can put yours informations -->
+        <div class="main">
+            <div class="card">
+                <h2 class="sub_title">General info</h2>
+                <div class="image">
+                    <img src="../../resources/1968-1979/GAME_OF_LIFE_EXAMPLE1.gif" alt="Game of Life by Sam Twidale" width="250em">
+                    <p><a href="https://experiments.withgoogle.com/conway-game-of-life">Game of life by Sam Twidale</a></p>
+                </div>
+                <p>
+                    Conway's Game of Life is a cellular automaton devised by British mathematician John Conway in 1970.
+                    The Game of Life is not a traditional game with players, 
+                    but rather a simulation that evolves over time based on a set of simple rules. 
+                    It is a zero-player game, meaning that its progression is determined solely by its initial state.
+                    <br><br>
+                    You can play <a href="https://playgameoflife.com/">here</a>
+                </p>
+            </div>
+
+            <div class="card">
+                <h2 class="sub_title">The idea of John Conway</h2>
+                <div class="image">
+                    <img src="../../resources/1968-1979/GAME_OF_LIFE_CELLULAR_AUTOMATA.png" alt="Cellular automata" width="300em">
+                    <p>
+                        <a href="https://www.wolframscience.com/nks/notes-12-10--minimal-cellular-automata-for-sequences/">Cellular automata</a>
+                    </p>
+                </div>
+                The idea for the Game of Life came to John Conway as he was interested in exploring the concept of cellular automata—a mathematical model that consists of a grid of cells,
+                each in one of a finite number of states, and evolves through a series of discrete time steps based on a set of rules. 
+                Conway sought to create a cellular automaton with simple rules that could generate complex and interesting patterns.
+            </div>
+
+            <div class="card">
+                <h2 class="sub_title">Game rules</h2>
+                The Game of Life is played on an infinite two-dimensional grid of square cells,
+                where each cell can be in one of two states: alive or dead. 
+                The state of a cell evolves over discrete generations, following a set of rules:
+
+                <div class="image">
+                    <img src="../../resources/1968-1979/GAME_OF_LIFE_EXAMPLE2.gif" alt="Game of Life simple example" width="300em">
+                    <p>Game of life simple example</p>
+                </div>
+
+                <br><br>
+                <ul>
+                    <li>Birth: A dead cell with exactly three live neighbors becomes alive (reproduction).</li>
+                    <li>Survival: A live cell with two or three live neighbors stays alive.</li>
+                    <li>Death: A live cell with fewer than two live neighbors dies (underpopulation), or with more than three live neighbors dies (overpopulation).</li>
+                </ul>
+                <br>
+
+                Conway's rules create dynamic and intricate patterns that can be stable, oscillating, or evolving. 
+                Despite the simplicity of the rules, the Game of Life exhibits complex behaviors, 
+                and many interesting patterns and structures have been discovered, including gliders, oscillators, and spaceships.
+            </div>
+
+            <div class="card">
+                <h2 class="sub_title">Conclusion</h2>
+                <p>
+                    The consequences of Conway's Game of Life extend beyond its original purpose as an experiment in cellular automata.
+                    It has become a significant topic of study in computer science, mathematics, and artificial life. 
+                    The Game of Life has applications in various fields, such as cryptography, image processing, and even music composition.
+                    Its simplicity and universality make it a popular subject for exploration and experimentation in computer science and mathematical research. 
+                    The Game of Life has also inspired the development of other cellular automata and has had a lasting impact on the study of complex systems and emergent behavior.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <address>Valentyn Levytskyi</address>
+        <p>My pages:
+            <a href="alu74181.html">ALU 74181</a> /
+            <a href="game-of-life.html">Game of Life</a> /
+            <a href="intel-amd-foundation.html">Intel and AMD foundation</a> /
+            <a href="arpanet-first-message.html">ARPANET's first message</a>
+        </p>
+    </footer>
+
+    <!-- script for mobile sidebar -->
+    <script>
+        function openNav() {
+            document.getElementById("mobile_sidebar").style.width = "100%";
+        }
+        
+        function closeNav() {
+            document.getElementById("mobile_sidebar").style.width = "0%";
+        }
+    </script>
+
+    <!-- script for the clock -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../../templates/Clock/script.js"></script>
+</body>
+</html>

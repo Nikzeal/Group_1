@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Frantisek Vlcek">
+    <meta http-equiv="refresh" content="60"/>
+    <meta name="keywords" content="90s, retro, old, google, informatics"/>
+    <meta name="description" content="Birth of Google"/>
+    <title>Birth of Google</title>
+    <link rel="stylesheet" href="../../templates/reset.css"> <!-- reset css -->
+    <link rel="stylesheet" href="../../styles/1991-2001/91-01.css"> <!-- main css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- icons -->
+</head>
+
+<body>
+    <!-- "header" -->
+    <div id="title">
+        <!-- Your title -->
+        <h1 class="mainTitle">
+            1990-2001 <img src="../../resources/main/magnifier.png" alt="magnifying glass">
+        </h1>
+    </div>
+
+    <!-- container -->
+    <div class="container">
+        <!-- button to open hamburger menu -->
+        <span id="hamburger" onclick="openNav()">&#9776;</span>
+
+        <!-- mobile sidebar -->
+        <div id="mobile_sidebar" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <div class="side-hero">
+                    <ul>
+                        <li class="home"><a href="../main/index.html">Home</a></li>
+                        <li class="about"><a href="#">About</a></li>
+                        <li class="source"><a href="#">Sources</a></li>
+                        <li class="contact"><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="timeline-sidebar">
+                        <div class="circles">
+                            <div class="circle">
+                                <a href="#">1991</a>
+                            </div>
+                            <div class="circle">
+                                <a href="#">1992</a>
+                            </div>
+                            <div class="circle">
+                                <a href="#">1993</a>
+                            </div>
+                            <div class="circle">
+                                <a href="#">1994</a>
+                            </div>
+                            <div class="circle">
+                                <a href="#">1995</a>
+                            </div>
+                            <div class="circle">
+                                <a href="#">1996</a>
+                            </div>
+                            <div class="circle">
+                                <a href="#">1997</a>
+                            </div>
+                            <div class="circle">
+                                <a href="#">1998</a>
+                            </div>
+                            <div class="circle">
+                                <a href="#">1999</a>
+                            </div>
+                            <div class="circle">
+                                <a href="#">2000</a>
+                            </div>
+                            <div class="circle">
+                                <a href="#">2001</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main sidebar -->
+        <div class="sidebar">
+            <div class="side-hero">
+                <div class="clock-container">
+                    <div class="clock-hero">
+                        <div class="clock">
+                            <div class="hand"></div>
+                        </div>
+                    </div>
+                    <div class="menu-hero">
+                        <ul>
+                            <li class="home"><a href="../main/index.html">Home</a></li>
+                            <li class="about"><a href="">About</a></li>
+                            <li class="source"><a href="">Sources</a></li>
+                            <li class="contact"><a href="">Contact</a></li>
+                        </ul>
+                    </div> 
+                </div> 
+                <div class="timeline-sidebar">
+                    <div class="circles">
+                        <div class="circle">
+                            <a href="#">1991</a>
+                        </div>
+                        <div class="circle">
+                            <a href="#">1992</a>
+                        </div>
+                        <div class="circle">
+                            <a href="#">1993</a>
+                        </div>
+                        <div class="circle">
+                            <a href="#">1994</a>
+                        </div>
+                        <div class="circle">
+                            <a href="#">1995</a>
+                        </div>
+                        <div class="circle">
+                            <a href="#">1996</a>
+                        </div>
+                        <div class="circle">
+                            <a href="#">1997</a>
+                        </div>
+                        <div class="circle">
+                            <a href="#">1998</a>
+                        </div>
+                        <div class="circle">
+                            <a href="#">1999</a>
+                        </div>
+                        <div class="circle">
+                            <a href="#">2000</a>
+                        </div>
+                        <div class="circle">
+                            <a href="#">2001</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- main content where you can put yours information -->
+        <div class="main">
+            <div class="address_container">
+                <p>A<u>d</u>dress</p>
+                <input class="searchbar address" value="http:/www.the90s.com/" disabled type="url"/>
+                <button disabled class="button"><i class="fa fa-share"></i> Go</button>
+            </div>
+            <div class="content">
+                <div class="topic">
+                    <div class="sub_title">
+                        <div class="letters">
+                            <div class="letter blueletter">G</div>
+                            <div class="letter redletter">o</div>
+                            <div class="letter yellowletter">o</div>
+                            <div class="letter blueletter">g</div>
+                            <div class="letter greenletter">l</div>
+                            <div class="letter redletter">e</div>
+                            <div class="letter redletter">!</div>
+                            <!--<span class="">.</span>-->
+                        </div>
+
+                        <!-- form for the icon about searc, result... under the title -->
+                        <form class="inputs">
+                            <input type="text" disabled placeholder="THE BIRTH OF GOOGLE" id="search" class="searchbar"/>
+                            <select disabled id="results" class="searchbar">
+                                <option value="" selected>1 result</option>
+                            </select>
+                            <button disabled  id="buttonsearch" class="button">Google search</button>
+                            <button disabled  id="buttonlucky" class="button">I'm feeling 90s</button>
+                        </form>
+                    </div>
+                    <!-- text under the search -->
+                    <p class="results">Showing results 1-1 of approximately 1 for "THE BIRTH OF GOOGLE". Search took 0.02 seconds.</p>
+
+                    <!-- main content that appears as a search result -->
+                    <div class="sub_topic">
+                        <p>
+                            Google, the world’s most famous search engine, traces its roots back to a project called “BackRub”. BackRub was a research project of two PhD students, Larry Page and Sergey Brin, at Stanford University in California. The programmer who wrote a lot of the original code for the Google Search engine but left before Google become a company, Scoot Hassan, is considered an unofficial “third founder."
+                        </p>
+                        <div class="sub_topic-image">
+                            <img src="../../resources/1991-2001/google_1997.jpg" alt="Google in 1997">
+                        </div>
+                        <p>
+                            Larry Page was considering various topics for his dissertation theme, but the one decided to go with involved exploring the mathematical aspects of the World Wide Web and understanding its link structure as a vast graph. He focused specifically on the issue of determining which web pages are linked to a particular page. He believed that this information, including the number and nature of backlinks, could provide valuable insights about a page, drawing inspiration from the role of citations in academic publishing. Larry Page then shared his ideas with Hassan, who took the initiative to write the code necessary to implement these ideas.
+                        </p>
+                        <div class="sub_topic-image flexed center">
+                            <img src="../../resources/1991-2001/pagerank.png" alt="pagerank illustration">
+                        </div>
+                        <p>
+                            The PageRank algorithm was developed by Brin and Page to analyze link data. The algorithm considers pages referenced the most by other pages as relevant. They observed that a search engine based on PageRank would yield better outcomes compared to existing techniques of web search, which primarily ranked results based on the frequency of search terms appearing on a page. Convinced that pages with the highest number of backlinks from highly relevant web pages would be the most relevant in searches, Page and Brin conducted tests to validate their hypothesis and established the basis for their search engine.
+                        </p>
+                        <p>
+                            The initial release BackRub occurred in August 1996 on the Stanford website. Soon after, Backrub was renamed Google. The name was a play on the mathematical expression for the number 1 followed by 100 zeros. On September 15, 1997, the domain google.com was officially registered. On September 4, 1998, Google was formally incorporated as a company in Menlo Park, California, in the garage of their friend Susan Wojcicki.
+                        </p>
+                        <div class="sub_topic-image flexed center">
+                            <img src="../../resources/1991-2001/google-office.jpg" alt="First google office">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <address>Frantisek Vlcek</address>
+        <p>My pages:
+            <a href="#">Birth of Google</a> /
+            <a href="dvd_invented.html">Birth of DVDs</a> /
+            <a href="ibm_deepblue.html">IBM Deep Blue</a> /
+            <a href="apple_revival.html">Revival of Apple</a>
+        </p>
+    </footer>
+
+    <!-- script for mobile sidebar -->
+    <script>
+        function openNav() {
+            document.getElementById("mobile_sidebar").style.width = "100%";
+        }
+        
+        function closeNav() {
+            document.getElementById("mobile_sidebar").style.width = "0%";
+        }
+    </script>
+    <!-- clock script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../../templates/Clock/script.js"></script>
+    <script> 
+        document.addEventListener("DOMContentLoaded", function() {
+            var results = document.getElementById('results');
+            results.setAttribute('size',results.value.length);
+        })
+    </script>
+</body>
+</html>

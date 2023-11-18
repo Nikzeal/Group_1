@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Frantisek Vlcek">
+    <meta http-equiv="refresh" content="60"/>
+    <meta name="keywords" content="90s, retro, old, google, informatics"/>
+    <meta name="description" content="DVD Invented"/>
+    <title>DVD Invented</title>
+    <link rel="stylesheet" href="../../templates/reset.css"> <!-- reset css -->
+    <link rel="stylesheet" href="../../styles/1991-2001/91-01.css"> <!-- main css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- icons -->
+</head>
+
+<body>
+<!-- "header" -->
+<div id="title">
+    <!-- Your title -->
+    <h1 class="mainTitle">
+        1990-2001 <img src="../../resources/main/magnifier.png" alt="magnifying glass">
+    </h1>
+</div>
+
+<!-- container -->
+<div class="container">
+    <!-- button to open hamburger menu -->
+    <span id="hamburger" onclick="openNav()">&#9776;</span>
+
+    <!-- mobile sidebar -->
+    <div id="mobile_sidebar" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <div class="side-hero">
+                <ul>
+                    <li class="home"><a href="../main/index.html">Home</a></li>
+                    <li class="about"><a href="#">About</a></li>
+                    <li class="source"><a href="#">Sources</a></li>
+                    <li class="contact"><a href="#">Contact</a></li>
+                </ul>
+                <div class="timeline-sidebar">
+                    <div class="circles">
+                        <div class="circle">
+                            <a href="#">1991</a>
+                        </div>
+                        <div class="circle">
+                            <a href="#">1992</a>
+                        </div>
+                        <div class="circle">
+                            <a href="#">1993</a>
+                        </div>
+                        <div class="circle">
+                            <a href="#">1994</a>
+                        </div>
+                        <div class="circle">
+                            <a href="#">1995</a>
+                        </div>
+                        <div class="circle">
+                            <a href="#">1996</a>
+                        </div>
+                        <div class="circle">
+                            <a href="#">1997</a>
+                        </div>
+                        <div class="circle">
+                            <a href="#">1998</a>
+                        </div>
+                        <div class="circle">
+                            <a href="#">1999</a>
+                        </div>
+                        <div class="circle">
+                            <a href="#">2000</a>
+                        </div>
+                        <div class="circle">
+                            <a href="#">2001</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- main sidebar -->
+    <div class="sidebar">
+        <div class="side-hero">
+            <div class="clock-container">
+                <div class="clock-hero">
+                    <div class="clock">
+                        <div class="hand"></div>
+                    </div>
+                </div>
+                <div class="menu-hero">
+                    <ul>
+                        <li class="home"><a href="../main/index.html">Home</a></li>
+                        <li class="about"><a href="">About</a></li>
+                        <li class="source"><a href="">Sources</a></li>
+                        <li class="contact"><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-sidebar">
+                <div class="circles">
+                    <div class="circle">
+                        <a href="#">1991</a>
+                    </div>
+                    <div class="circle">
+                        <a href="#">1992</a>
+                    </div>
+                    <div class="circle">
+                        <a href="#">1993</a>
+                    </div>
+                    <div class="circle">
+                        <a href="#">1994</a>
+                    </div>
+                    <div class="circle">
+                        <a href="#">1995</a>
+                    </div>
+                    <div class="circle">
+                        <a href="#">1996</a>
+                    </div>
+                    <div class="circle">
+                        <a href="#">1997</a>
+                    </div>
+                    <div class="circle">
+                        <a href="#">1998</a>
+                    </div>
+                    <div class="circle">
+                        <a href="#">1999</a>
+                    </div>
+                    <div class="circle">
+                        <a href="#">2000</a>
+                    </div>
+                    <div class="circle">
+                        <a href="#">2001</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- main content where you can put yours information -->
+    <div class="main">
+        <div class="address_container">
+            <p>A<u>d</u>dress</p>
+            <input class="searchbar address" value="http:/www.the90s.com/" disabled type="url"/>
+            <button disabled class="button"><i class="fa fa-share"></i> Go</button>
+        </div>
+        <div class="content">
+            <div class="topic">
+                <div class="sub_title">
+                    <div class="letters">
+                        <div class="letter blueletter">G</div>
+                        <div class="letter redletter">o</div>
+                        <div class="letter yellowletter">o</div>
+                        <div class="letter blueletter">g</div>
+                        <div class="letter greenletter">l</div>
+                        <div class="letter redletter">e</div>
+                        <div class="letter redletter">!</div>
+                        <!--<span class="">.</span>-->
+                    </div>
+
+                    <!-- form for the icon about searc, result... under the title -->
+                    <form class="inputs">
+                        <input type="text" disabled placeholder="BIRTH OF DVDs" id="search" class="searchbar"/>
+                        <select disabled id="results" class="searchbar">
+                            <option value="" selected>1 result</option>
+                        </select>
+                        <button disabled  id="buttonsearch" class="button">Google search</button>
+                        <button disabled  id="buttonlucky" class="button">I'm feeling 90s</button>
+                    </form>
+                </div>
+                <!-- text under the search -->
+                <p class="results">Showing results 1-1 of approximately 1 for "BIRTH OF DVDs". Search took 0.01 seconds.</p>
+
+                <!-- main content that appears as a search result -->
+                <div class="sub_topic">
+                    <p>
+                        1996 marked a significant breakthrough for inexpensive distribution of digital entertainment media, as DVDs, which soon later became a hit, were introduced to the market.
+                    </p>
+                    <div class="sub_topic-image">
+                        <img src="../../resources/1991-2001/dvd.png" alt="DVD">
+                    </div>
+                    <p>
+                        DVD is a type of optical disc that is utilized to store data and serves as a platform for multimedia. Its primary use in the market is for the playback of recorded movies and TV shows, which is why it is referred to as a "digital video disc". However, it can also be employed on personal computers for storing extensive amounts of various data types, as it comes in read-only, recordable, erasable, and rewritable versions. This versatility is the reason why it is known as a "digital versatile disc."
+                    </p>
+                    <p>
+                        The DVD is the next iteration of compact disc (CD) technology. Research on storing high-quality video on the same disc began soon after Sony Corporation and Philips Electronics NV released the first audio CDs in 1982. In 1994-1995, two competing formats emerged: Sony and Philips introduced the Multimedia CD (MMCD), while Toshiba Corporation and Time Warner Inc. led a group that developed the Super Density (SD) disc.   However, by the end of 1995, both groups reached a consensus and agreed on a common format called DVD, which incorporated elements from both proposals. The first DVD players were then made available for purchase in Japan in 1996.
+                    </p>
+                    <div class="sub_topic-image flexed center">
+                        <img src="../../resources/1991-2001/optical-disk-comparison.png" alt="Comparison of Optical Disks">
+                    </div>
+                    <p>
+                        Similar to a CD drive, a DVD drive employs a laser to interpret digitally encoded information on the disc in the shape of small pits arranged in a spiral pattern from the center to the outer edge. Blue-Ray and others also share this technology but all use light of different wavelengths, allowing them to achieve different reading/writing precisions and therefore different storage densities, improving with each generation.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- footer -->
+<footer>
+    <address>Frantisek Vlcek</address>
+    <p>My pages:
+        <a href="#">Birth of Google</a> /
+        <a href="dvd_invented.html">Birth of DVDs</a> /
+        <a href="ibm_deepblue.html">IBM Deep Blue</a> /
+        <a href="apple_revival.html">Revival of Apple</a>
+    </p>
+</footer>
+
+<!-- script for mobile sidebar -->
+<script>
+    function openNav() {
+        document.getElementById("mobile_sidebar").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("mobile_sidebar").style.width = "0%";
+    }
+</script>
+<!-- clock script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="../../templates/Clock/script.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var results = document.getElementById('results');
+        results.setAttribute('size',results.value.length);
+    })
+</script>
+</body>
+</html>

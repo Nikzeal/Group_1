@@ -1,0 +1,386 @@
+:root {
+    --clr-neutral-100: white;
+    --clr-neutral-300: hsl(249, 6%, 78%) ;
+    --clr-neutral-500: black;
+    --clr-neutral-900: black;
+
+    --bg--body: var(--clr-neutral-500);
+
+    --ff-primary: Data70;
+
+    --ff-body: var(--ff-primary);
+    --ff-heading: var(--ff-primary);
+
+    --fw-regualar: 400;
+    --fw-bold: 800;
+
+    --fs-300: 0.8em;
+    --fs-400: 1.1em;
+    --fs-500: 0.9em;
+    --fs-700: 2.5em;
+
+    --fclr-primary: var(--clr-neutral-300);
+
+    --fs-body: var(--fs-400);
+    --fs-heading: var(--fs-700);
+    --fs-nav: var(--fs-300);
+
+    --bs-weight: 10px;
+    --bs-drawing: dashed;
+    --bs-color: blue;
+}
+
+@font-face {
+    font-family: Data70;
+    src: url(../fonts/Terminal.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--clr-neutral-100);
+    font-family: var(--ff-body);
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--bg--body);
+}
+
+#title {
+    height: 10vh;
+    display: flex;
+    font-size: var(--fw-bold);
+    background-color: rgb(255, 219, 101);
+    align-items: center;
+    justify-content: center;
+    border-bottom: var(--bs-weight) double var(--bs-color);
+}
+
+/* MOBILE SIDEBAR */
+#hamburger {
+    /* height: 10vh; */
+    position: absolute;
+    font-size: 8vw;
+    top: -2.5vw;
+    left: 2.5vw;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000000e6;
+    overflow-x: hidden;
+    transition: 0.8s;
+}
+
+.overlay-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 7em;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    padding: 0;
+    color: #fff;
+}
+
+/* sidebar */
+.sidebar{
+    background-color: black;
+    border-right: var(--bs-weight) double var(--bs-color);
+}
+
+.menu-hero a {
+    color: red !important;
+    font-family: Data70 !important;
+}
+
+.clock-hero{
+    background-color: yellow !important;
+    border: 10px double blue;
+    box-shadow: none !important;
+}
+
+.menu-hero span{
+    &::after {
+        background-color: blue !important;
+    }
+    &::before {
+        background-color: blue !important;
+    }
+}
+
+.hand{
+    background-color: green;
+}
+
+.mainTitle {
+    color: black;
+}
+
+.main {
+    padding:2vw;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle:hover{
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: red;
+}
+
+.circle:hover a{
+    color: yellow;
+    padding-left: 4.5em;
+    font-size: 1.5em;
+}
+
+.circle a {
+    position: relative;
+    padding-left: 4em;
+    color: var(--fclr-primary);
+    transition: 0.3s;
+}
+
+.card{
+    padding: 1em;
+    border: 5px dotted white;
+    margin: 1em;
+}
+
+.sub_title{
+    margin-bottom: 1em;
+    border-bottom: 1px solid red;
+    padding-bottom: .2em;
+}
+
+.card-image{
+    display:flex;
+    flex-direction: column;
+}
+
+.image{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    justify-self: center;
+    align-items: center;
+}
+
+.image img{
+    margin-bottom: 1em;
+}
+
+.two-column-card{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1em;
+    padding: 1em;
+    width: 100%;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    border: 5px dotted white;
+    padding: 1em;
+    width: 35vw;
+}
+
+table, td, th{
+    border: 2px dashed white;
+}
+
+table{  
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th{
+    text-align: start;
+    padding:1em;
+}
+
+th{
+    font-weight: var( --fw-bold);
+    color: red;
+}
+
+.main a{
+    color: yellow;
+    transition: 0.3s;
+}
+
+footer a{
+    color: yellow;
+    transition: 0.3s;
+}
+
+.main a:hover{
+    font-size: 1.5em;
+    color: green;
+}
+
+button{
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: black;
+    transition: 0.3s;
+    color: yellow;
+}
+
+button:hover{
+    background-color: white;
+    color: green;
+}
+
+ul{
+    padding: 2vw;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+    list-style-type: square;
+}
+
+footer{
+    padding: 1vw;
+    border-top: var(--bs-weight) double var(--bs-color);
+}
+
+/* media queries */
+@media (max-width: 790px) {
+
+    #title {
+        height: 8vw;
+    }
+
+    .mainTitle {
+        font-size: 3vw;
+    }
+    
+    #hamburger {
+        display: inline-block;
+        color: #000;
+    }
+
+    /* change the dimension of sidebar */
+    .sidebar, .sidebar * {
+        display: none;
+    }
+
+    .side-hero {
+        width: 100%;
+    }
+
+    .side-hero ul {
+        width: 100%;
+        height: 4em;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        box-shadow: 0 0 .5em .1em #fff;
+    }
+
+    .side-hero ul li {
+        list-style: none;
+        font-size: 2em;
+    }
+    
+    .side-hero ul li a {
+        color: #fff;
+    }
+    
+    .home {
+        position:relative;
+        transform: rotate(0);
+        top: 0;
+        left: 0;
+    }
+    
+    .about {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    
+    .source {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    
+    .contact {
+        transform: rotate(0);
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .timeline-sidebar {
+        margin: 0;
+        padding: 0;
+        box-shadow: 0 0 .5em 0 #fff;
+    }
+
+    .circles {
+        justify-content: space-evenly;
+    }
+
+    .circle {
+        width: 1em;
+    }
+
+    .circle a {
+        font-size: 1.5em;
+    }
+
+    .main {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .side-hero ul li {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    :root {
+        --fs-500:2em;
+        --fs-700:3.5em;
+        --fs-400:1.5em;
+    }
+
+    #column-card-mobile{
+        display: block;
+        width: 100%;
+    }
+
+    #column-mobile{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+}
