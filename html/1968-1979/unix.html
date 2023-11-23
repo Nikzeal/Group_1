@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vasyl Damian">
+    <title>Unix</title>
+    <link rel="stylesheet" href="../../templates/reset.css"> <!-- reset css -->
+    <link rel="stylesheet" href="../../templates/Clock/style.css"> <!-- clock css -->
+    <link rel="stylesheet" href="../../styles/1968-1979/68-79.css"> <!-- main css -->
+    <!--broken links script-->
+    <script src="../../scripts/det_brkn_links.js"></script>
+</head>
+
+<body>
+    <!-- title -->
+    <div id="title">
+        <h1 class="mainTitle">Unix</h1>
+    </div>
+
+    <!-- content -->
+    <div class="container">
+        <!-- button to open hamburger menu -->
+        <span id="hamburger" onclick="openNav()">&#9776;</span>
+
+        <!-- mobile sidebar -->
+        <div id="mobile_sidebar" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <div class="side-hero">
+                    <ul>
+                        <li class="home"><a href="../main/index.html">Home</a></li>
+                        <li class="about"><a href="../main/team.html">Team</a></li>
+                        <li class="source"><a href="../main/sources.html">Sources</a></li>
+                        <li class="contact"><a href="../main/link.html">Link</a></li>
+                    </ul>
+                    <div class="timeline-sidebar">
+                        <div class="circles">
+                            <div class="circle">
+                                <a href="../1968-1979/intel-amd-foundation.html">1968</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/arpanet-first-message.html">1969</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/alu74181.html">1970</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/game-of-life.html">1970</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/intel4004.html">1971</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/c.html">1972</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/touchscreen.html">1972</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/unix.html">1973</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/intel8080.html">1974</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/microsoft-found.html">1975</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/ibm5100.html">1975</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/altair.html">1975</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/apple1.html">1976</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/VAXmic.html">1977</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/home_computer_race.html">1977</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/WorStar.html">1978</a>
+                            </div>
+                            
+                            <div class="circle">
+                                <a href="../1968-1979/VisiCalc.html">1979</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main sidebar -->
+        <div class="sidebar">
+            <div class="side-hero">
+                <div class="clock-container">
+                    <div class="clock-hero">
+                        <div class="clock">
+                            <div class="hand"></div>
+                        </div>
+                    </div>
+                    <div class="menu-hero">
+                        <ul>
+                            <li class="home"><a href="../main/index.html">Home</a></li>
+                            <li class="about"><a href="../main/team.html">Team</a></li>
+                            <li class="source"><a href="../main/sources.html">Sources</a></li>
+                            <li class="contact"><a href="../main/link.html">Link</a></li>
+                        </ul>
+                    </div> 
+                </div> 
+                <div class="timeline-sidebar">
+                    <div class="circles">
+                        <div class="circle">
+                            <a href="../1968-1979/intel-amd-foundation.html">1968</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/arpanet-first-message.html">1969</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/alu74181.html">1970</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/game-of-life.html">1970</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/intel4004.html">1971</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/c.html">1972</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/touchscreen.html">1972</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/unix.html">1973</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/intel8080.html">1974</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/microsoft-found.html">1975</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/ibm5100.html">1975</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/altair.html">1975</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/apple1.html">1976</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/VAXmic.html">1977</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/home_computer_race.html">1977</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/WorStar.html">1978</a>
+                        </div>
+                        
+                        <div class="circle">
+                            <a href="../1968-1979/VisiCalc.html">1979</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main content -->
+        <div class="main">
+            <div class="card">
+                <h2 class="sub_title">The Development</h2>
+                <p>
+                    Unix was a <a href="https://www.cs.dartmouth.edu/~doug/reader.pdf" target="_blank">development project of AT&amp;T</a>, which started in 1969 at Bell Labs
+                    by Ken Thompson, Dennis Ritchie, and others. In the late 1970s, it was
+                    licensed to outside parties, including University of California, Berkeley,
+                    which made BSD, and from it would come out MacOS, Microsoft (Xenix), Sun
+                    Microsystems (Solaris), and IBM (AIX).
+                    <br>
+                    "Unix license would cost a company $20,000 (educational institutions were
+                    charged $200), but a few firms felt the improved productivity achieved with
+                    Unix was worth the fee." - <a href="https://archive.org/details/byte-magazine-1983-10/page/n133/mode/1up?view=theater">David Fiedler, Byte-Magazine Vol. 8, Num. 10, Oct. 1983, pg.132</a>
+                    <br>
+                    In the early 1990s, AT&amp;T sold its
+                    rights in Unix to Novell, which then sold it to The Open Group, that allowed
+                    the use of the mark to who complies with the Single UNIX Specification.
+            </div>
+
+            <div class="card">
+                <h2 class="sub_title">Why Unix?</h2>
+                <p>
+                    Unix was made to be a useful platform for programmers developing software.
+                    The system grew as it spread in academic circles, and users added their
+                    software and shared them among colleagues.
+                </p>
+
+                <div class="card">
+                    <p>
+                        "Utility programs were added by various people as they had problems to solve.
+                        <br>
+                        Brilliant researchers wrote their own software and added it to Unix."
+                        - Shelley Powers, Unix Power Tools, p.3, O'Reilly Media, 2003.
+                    </p>
+                </div>
+
+                <p>
+                    As Unix gained popularity, multi-tasking and multi-user capabilities were added
+                    to it, and they are characterized by various concepts.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2 class="sub_title">The Unix Philosophy</h2>
+                    <p>
+                        The Unix philosophy, originated by Ken Thompson, is based on the
+                        experience of leading developers, bringing conceps of modularity and
+                        reusability.
+                        The Unix philosophy for programs has four points:
+                    </p>
+                    <ol>
+                        <li>Do one thing and do it well.</li>
+                        <li>The output can be another's input.</li>
+                        <li>Have a clean code.</li>
+                        <li>Make a hard task easy.</li>
+                    </ol>
+            </div>
+
+            <div class="card card-image">
+                <h2 class="sub_title">The future birth of Linux</h2>
+                <p>
+                    Linux is an open-source Unix-like operating system that was born in the 1990s,
+                    which is nowadays a father of many distros: various distributions with different
+                    views, programmers, packages and versions.
+                </p>
+                <div class="image">
+                    <img src='../../resources/1968-1979/linus_torvalds.jpg' alt=''>
+                    <p>Linus Torvalds, father of the Linux operating system</p> 
+                    <!-- Source: LinuxCon Europe 2014 in Düsseldorf  link: https://upload.wikimedia.org/wikipedia/commons/0/01/LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <address>Vasyl Damian</address>
+        <p>My pages:
+            <a class="link" href="./c.html">The C Programming Lanugage</a> /
+            <a class="link" href="./intel4004.html">Intel 4004</a> /
+            <a class="link" href="./touchscreen.html">Touchscreen</a>
+        </p>
+    </footer>
+
+    <!-- script for mobile sidebar -->
+    <script>
+        function openNav() {
+            document.getElementById("mobile_sidebar").style.width = "100%";
+        }
+        
+        function closeNav() {
+            document.getElementById("mobile_sidebar").style.width = "0%";
+        }
+    </script>
+
+    <!-- script for the clock -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../../templates/Clock/script.js"></script>
+</body>
+</html>

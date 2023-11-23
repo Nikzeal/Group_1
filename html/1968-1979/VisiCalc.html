@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="Adrian Cazar">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Adrian Cazar">
+    <title>VisiCalc</title>
+    <link rel="stylesheet" href="../../templates/reset.css"> <!-- reset css -->
+    <link rel="stylesheet" href="../../templates/Clock/style.css"> <!-- clock css -->
+    <link rel="stylesheet" href="../../styles/1968-1979/68-79.css"> <!-- main css -->
+    <!--broken links script-->
+    <script src="../../scripts/det_brkn_links.js"></script>
+</head>
+
+<body>
+    <!-- title -->
+    <div id="title">
+        <h1 class="mainTitle">1979: VisiCalc</h1>
+    </div>
+
+    <!-- content -->
+    <div class="container">
+        <!-- button to open hamburger menu -->
+        <span id="hamburger" onclick="openNav()">&#9776;</span>
+
+        <!-- mobile sidebar -->
+        <div id="mobile_sidebar" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <div class="side-hero">
+                    <ul>
+                        <li class="home"><a href="../main/index.html">Home</a></li>
+                        <li class="about"><a href="../main/team.html">Team</a></li>
+                        <li class="source"><a href="../main/sources.html">Sources</a></li>
+                        <li class="contact"><a href="../main/link.html">Link</a></li>
+                    </ul>
+                    <div class="timeline-sidebar">
+                        <div class="circles">
+                            <div class="circle">
+                                <a href="../1968-1979/intel-amd-foundation.html">1968</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/arpanet-first-message.html">1969</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/alu74181.html">1970</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/game-of-life.html">1970</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/intel4004.html">1971</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/c.html">1972</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/touchscreen.html">1972</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/unix.html">1973</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/intel8080.html">1974</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/microsoft-found.html">1975</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/ibm5100.html">1975</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/altair.html">1975</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/apple1.html">1976</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/VAXmic.html">1977</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/home_computer_race.html">1977</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/WorStar.html">1978</a>
+                            </div>
+                            
+                            <div class="circle">
+                                <a href="../1968-1979/VisiCalc.html">1979</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main sidebar -->
+        <div class="sidebar">
+            <div class="side-hero">
+                <div class="clock-container">
+                    <div class="clock-hero">
+                        <div class="clock">
+                            <div class="hand"></div>
+                        </div>
+                    </div>
+                    <div class="menu-hero">
+                        <ul>
+                            <li class="home"><a href="../main/index.html">Home</a></li>
+                            <li class="about"><a href="../main/team.html">Team</a></li>
+                            <li class="source"><a href="../main/sources.html">Sources</a></li>
+                            <li class="contact"><a href="../main/link.html">Link</a></li>
+                        </ul>
+                    </div> 
+                </div> 
+                <div class="timeline-sidebar">
+                    <div class="circles">
+                        <div class="circle">
+                            <a href="../1968-1979/intel-amd-foundation.html">1968</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/arpanet-first-message.html">1969</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/alu74181.html">1970</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/game-of-life.html">1970</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/intel4004.html">1971</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/c.html">1972</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/touchscreen.html">1972</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/unix.html">1973</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/intel8080.html">1974</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/microsoft-found.html">1975</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/ibm5100.html">1975</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/altair.html">1975</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/apple1.html">1976</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/VAXmic.html">1977</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/home_computer_race.html">1977</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/WorStar.html">1978</a>
+                        </div>
+                        
+                        <div class="circle">
+                            <a href="../1968-1979/VisiCalc.html">1979</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main content -->
+        <div class="main">
+            <div class="card" style="border: none; padding: 0;">
+                <h2 class="sub_title">What is VisiCalc?</h2>
+                <p>
+                    VisiCalc was the first spreadsheet computer program for personal computers, 
+                    which was released in 1979 for the Apple II home computer. 
+                    This program was characterised by having pretty straightforward structure and use. 
+                    The main purpose of VisiCalc was to allow data sorting and storing in tabular rows and columns,
+                    which came very handy to replace the manual operation of developing and managing spreadsheets. 
+                    This program was crucial since a single change on a cell was automatically applied to all the spreadsheet,
+                    making the process of data sorting and storage a lot easier and insanely faster. 
+                    According to Steve Jobs, VisiCalc, commonly known as the “killer app”, 
+                    was one of the reasons that led the Apple II to have the success it had. 
+                    <br>
+                    <br>
+                    At the time, small businesses and entrepreneurs saw this program as an amazing way to boost productivity by 
+                    reducing the amount of time it took them to organise and alter information about their business, 
+                    which made them buy personal computers just to have access to this program. 
+                </p>
+            </div>
+
+            <div class="card card-image">
+                <h2 class="sub_title">The minds behind the program </h2>
+                <div>
+                    <div class="image">
+                        <img src='../../resources/1968-1979/DAN_BOB.jpeg' alt="">
+                        <p> Bob Frankston and Dan Bricklin </p>
+                    </div>
+                    <p>
+                        Dan Bricklin 
+                        <br>
+                        <br>
+                        Dan Bricklin is a computer scientist and entrepreneur born on July 16, 1951 in the United States. 
+                        Bricklin obtained a double career title in electrical engineering and informatics at the <a href="https://www.mit.edu">MIT</a>
+                        After graduation, he worked for the Digital Equipment Corporation (DEC) where he acquired a vast knowledge 
+                        regarding software development and business, which motivated him to return to college at <a href="https://www.harvard.edu">Hardvard</a> to obtain a 
+                        master in Business administration, where he started and co-developed the VisiCalc program. 
+                        <br>
+                        <br>
+                        Bob Frankston
+                        <br>
+                        <br>
+                        Bob Frankston is an American software engineer born in June 14th, 1949. 
+                        He studied his bachelor in software engineering at the <a href="https://www.mit.edu">MIT</a> where he met Dan Bricklin, and did a master of Engeneering
+                        in computer science at the same institution. He participated as a co-founder of VisiCalc in 1979.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card card-image">
+                <h2 class="sub_title">How does VisiCalc work?</h2>
+                <p>
+                    VisiCalc is an electronic spreadsheet that allows users to organise data in rows in columns, 
+                    where users can perform calculations and create dynamic models by linking cells together. 
+                    The way a user inputs data in this program is through cells, in which they can preform mathematical
+                    operations between different cells by inputing formulas that link a cell to another, which implies a 
+                    single change on a cell automatically updates all the information that is linked to that cell. 
+                </p>
+                <div class="image">
+                    <img src='../../resources/1968-1979/Visicalc.png' alt=''>
+                    <p>VisiCalc spreadsheet</p>
+                </div>
+            </div>
+
+            <div class="card" style="border: none; padding: 0;">
+                <h2 class="sub_title">Relevance and Legacy</h2>
+                <p>
+                    VisiCalc revolutionised the way businesses managed their numerical and statistical data. 
+                    With VisiCalc implemented, a single home computer was valuable to a business, 
+                    making this way of data administration cheaper and faster. 
+                    This revolutionised the business world by giving a new value to personal computers, 
+                    and allowing people to give a practical use to these devices for a faster, more efficient, 
+                    and user friendly performance.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <address>Adrian Cazar</address>
+        <p>My pages:
+            <a href="./home_computer_race.html">Home Computer Race 1977</a> /
+            <a href="./VAXmic.html">Vax microcomputer</a>/
+            <a href="./WorStar.html">WordStar</a>
+        </p>
+    </footer>
+
+    <!-- script for mobile sidebar -->
+    <script>
+        function openNav() {
+            document.getElementById("mobile_sidebar").style.width = "100%";
+        }
+        
+        function closeNav() {
+            document.getElementById("mobile_sidebar").style.width = "0%";
+        }
+        </script>
+
+    <!-- script for the clock -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../../templates/Clock/script.js"></script>
+</body>
+</html>

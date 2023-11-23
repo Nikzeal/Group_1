@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Christian Webb">
+    <title>HTML5</title>
+    <link rel="stylesheet" href="../../templates/reset.css"> <!-- css reset -->
+    <link rel="stylesheet" href="../../styles/2002-2012/home_02-12.css"> <!-- css of homepage -->
+    <link rel="stylesheet" href="../../styles/2002-2012/02-12.css"> <!-- css of each subpage -->
+    <!--broken links script-->
+    <script src="../../scripts/det_brkn_links.js"></script>
+</head>
+<body>
+    <!-- title -->
+    <div id="title">
+        <h1 class="mainTitle">HTML5</h1>
+    </div>
+
+    <!-- content -->
+    <div class="container">
+        <!-- button to open hamburger menu -->
+        <span id="hamburger" onclick="openNav()">&#9776;</span>
+
+        <!-- mobile sidebar -->
+        <div id="mobile_sidebar" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <div class="side-hero">
+                    <ul>
+                        <li class="home"><a href="../main/index.html">Home</a></li>
+                        <li class="about"><a href="../main/team.html">Team</a></li>
+                        <li class="source"><a href="../main/sources.html">Sources</a></li>
+                        <li class="contact"><a href="../main/link.html">Link</a></li>
+                    </ul>
+                    <div class="timeline-sidebar">
+                        <div class="circles">
+                            <div class="circle">
+                                <a href="../2002-2012/Wikipedia.html">2002</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2002-2012/WIFI.html">2002</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2002-2012/CloudComputing.html">2002</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2002-2012/Skype.html">2003</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2002-2012/IBM.html">2004</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2002-2012/IphoneLaunch.html">2007</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2002-2012/MicrosoftReleasesWindowsVista.html">2007</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2002-2012/AppStore.html">2008</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2002-2012/GoogleChrome.html">2008</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2002-2012/IBMroadrunner_Supercomputer.html">2008</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2002-2012/HTML5.html">2010</a>
+                            </div>
+                            <!-- <div class="circle">
+                                <a href="../2002-2012/AppStore.html">2012</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main sidebar -->
+        <div class="sidebar">
+            <div class="side-hero">
+                <div class="clock-container">
+                    <div class="clock-hero">
+                        <div class="clock">
+                            <div class="hand"></div>
+                        </div>
+                    </div>
+                    <div class="menu-hero">
+                        <ul>
+                            <li class="home"><a href="../main/index.html">Home</a></li>
+                            <li class="about"><a href="../main/team.html">Team</a></li>
+                            <li class="source"><a href="../main/sources.html">Sources</a></li>
+                            <li class="contact"><a href="../main/link.html">Link</a></li>
+                        </ul>
+                    </div> 
+                </div> 
+                <div class="timeline-sidebar">
+                    <div class="circles">
+                        <div class="circle">
+                            <a href="../2002-2012/Wikipedia.html">2002</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2002-2012/WIFI.html">2002</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2002-2012/CloudComputing.html">2002</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2002-2012/Skype.html">2003</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2002-2012/IBM.html">2004</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2002-2012/IphoneLaunch.html">2007</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2002-2012/MicrosoftReleasesWindowsVista.html">2007</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2002-2012/AppStore.html">2008</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2002-2012/GoogleChrome.html">2008</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2002-2012/IBMroadrunner_Supercomputer.html">2008</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2002-2012/HTML5.html">2010</a>
+                        </div>
+                        <!-- <div class="circle">
+                            <a href="../2002-2012/AppStore.html">2012</a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main content -->
+        <div class="timeline">
+            <div class="detail-timeline">
+                <details class="info_box">
+                    <summary>What is it?</summary>
+                    <img src="../../resources/2002-2012/HTML5.png" alt="" class="img_box float_l">
+                    <p class="text">
+                        HTML5 is the fifth and final version of HTML developed by the World Wide Web Consortium (W3C) and is maintained by
+                        the Web Hypertext Application Technology Working Group (WHATWG), which is made up by major browser developers. It was released on 22nd January 2008.
+                        Its goals are to allow the language to support the latest developments in multimedia content, as well
+                        as making content accessible to both humans and automated programs. This was necessary as HTMl4 was released in 2000.
+                    </p>
+                </details>
+            </div>
+
+            <div class="detail-timeline">
+                <details class="info_box">
+                    <summary>What did it add?</summary>
+                    <p class="text">
+                        HTML5 mainly added support for new multimedia content. Tags such as &lt;audio&gt;, &lt;video&gt; and &lt;canvas&gt; were added
+                        so you no longer had to rely on CSS & JavaScript to implement those types of content. It has been designed so that older browsers
+                        can safely ignore the new HTML5 elements.
+                    </p>
+                </details>
+            </div>
+
+            <div class="detail-timeline">
+                <details class="info_box">
+                    <summary>Timeline</summary>
+                    <p class="text">
+                        W3C began working on the new standard in 2004 and in May 2011 invited various organisations to review the new specifications.
+                        Whilst HTML5 itself was released in 2008, the W3C did not designate it as the "W3C Recommendation" until October 2014.
+                    </p>
+                </details>
+            </div>
+            
+            <div class="detail-timeline">
+                <details class="info_box">
+                    <summary>Future of HTML</summary>
+                    <p class="text">
+                        HTML5 was retired on 27th March 2018 for what is now known as the "HTML Living Stanard", which is named to indicate
+                        that HTML will never be fully complete and will constantly be updated and adapted to the future.
+                    </p>
+                </details>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <address>Christian Webb</address>
+        <p>My pages:
+            <a href="./GoogleChrome.html">Google Chrome</a> /
+            <a href="./AppStore.html">App Store</a> /
+            <a href="./CloudComputing.html">Cloud Computing</a> /
+            <a href="./HTML5.html">HTML5</a>
+        </p>
+    </footer>
+
+    <!-- script for mobile sidebar -->
+    <script>
+        function openNav() {
+            document.getElementById("mobile_sidebar").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("mobile_sidebar").style.width = "0%";
+        }
+    </script>
+
+    <!-- script for the clock -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../../templates/Clock/script.js"></script>
+</body>
+</html>

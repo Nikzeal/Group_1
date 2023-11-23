@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vasyl Damian">
+    <title>Intel 4004</title>
+    <link rel="stylesheet" href="../../templates/reset.css"> <!-- reset css -->
+    <link rel="stylesheet" href="../../templates/Clock/style.css"> <!-- clock css -->
+    <link rel="stylesheet" href="../../styles/1968-1979/68-79.css"> <!-- main css -->
+    <!--broken links script-->
+    <script src="../../scripts/det_brkn_links.js"></script>
+</head>
+
+<body>
+    <!-- title -->
+    <div id="title">
+        <h1 class="mainTitle">Intel 4004</h1>
+    </div>
+
+    <!-- content -->
+    <div class="container">
+        <!-- button to open hamburger menu -->
+        <span id="hamburger" onclick="openNav()">&#9776;</span>
+
+        <!-- mobile sidebar -->
+        <div id="mobile_sidebar" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <div class="side-hero">
+                    <ul>
+                        <li class="home"><a href="../main/index.html">Home</a></li>
+                        <li class="about"><a href="../main/team.html">Team</a></li>
+                        <li class="source"><a href="../main/sources.html">Sources</a></li>
+                        <li class="contact"><a href="../main/link.html">Link</a></li>
+                    </ul>
+                    <div class="timeline-sidebar">
+                        <div class="circles">
+                            <div class="circle">
+                                <a href="../1968-1979/intel-amd-foundation.html">1968</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/arpanet-first-message.html">1969</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/alu74181.html">1970</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/game-of-life.html">1970</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/intel4004.html">1971</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/c.html">1972</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/touchscreen.html">1972</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/unix.html">1973</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/intel8080.html">1974</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/microsoft-found.html">1975</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/ibm5100.html">1975</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/altair.html">1975</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/apple1.html">1976</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/VAXmic.html">1977</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/home_computer_race.html">1977</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/WorStar.html">1978</a>
+                            </div>
+                            
+                            <div class="circle">
+                                <a href="../1968-1979/VisiCalc.html">1979</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main sidebar -->
+        <div class="sidebar">
+            <div class="side-hero">
+                <div class="clock-container">
+                    <div class="clock-hero">
+                        <div class="clock">
+                            <div class="hand"></div>
+                        </div>
+                    </div>
+                    <div class="menu-hero">
+                        <ul>
+                            <li class="home"><a href="../main/index.html">Home</a></li>
+                            <li class="about"><a href="../main/team.html">Team</a></li>
+                            <li class="source"><a href="../main/sources.html">Sources</a></li>
+                            <li class="contact"><a href="../main/link.html">Link</a></li>
+                        </ul>
+                    </div> 
+                </div> 
+                <div class="timeline-sidebar">
+                    <div class="circles">
+                        <div class="circle">
+                            <a href="../1968-1979/intel-amd-foundation.html">1968</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/arpanet-first-message.html">1969</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/alu74181.html">1970</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/game-of-life.html">1970</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/intel4004.html">1971</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/c.html">1972</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/touchscreen.html">1972</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/unix.html">1973</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/intel8080.html">1974</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/microsoft-found.html">1975</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/ibm5100.html">1975</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/altair.html">1975</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/apple1.html">1976</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/VAXmic.html">1977</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/home_computer_race.html">1977</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/WorStar.html">1978</a>
+                        </div>
+                        
+                        <div class="circle">
+                            <a href="../1968-1979/VisiCalc.html">1979</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main content -->
+        <div class="main">
+            <div class="card card-image">
+                <h2 class="sub_title">About the 4004</h2>
+                <p>
+                    The Intel 4004 is a 4-bit CPU released by Intel in 1971. Sold for US$60
+                    (equivalent to $450 in 2023), it was the first commerically produced
+                    microprocessor, and the first for Intel.
+                    <br>
+                    The 4004 was the first large-scale integration, showing the superiority of the
+                    MOS silicon gate technology, which ensures that the gate is naturally and
+                    precisely aligned to the edges of the source and drain, and in exchange
+                    duplicated the number of transistors with five times the speed.
+                </p>
+                <div class="image" style="max-width: 63em; width: 100%;">
+                    <img src="../../resources/1968-1979/open4004.jpg" alt=''>
+                    <p>An open Intel 4004</p> <!-- Source: Science Museum Group, Link: https://collection.sciencemuseumgroup.org.uk/objects/co523245/intel-4004-processor-open-intel-microprocessor -->
+                </div>
+                <p>
+                    The innovative 4004 chip design served as a model on how to use the SGT for
+                    complex logic and memory circuits, accelerating the adoption of the new
+                    technology, developed by Fairchild by Federico Faggin, which was later improved
+                    in Intel 4040 in 1974.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2 class="sub_title">Development</h2>
+                <p>
+                    In April 1969, Busicom, a Japanese company that produced calculators and ATMs,
+                    approached Intel with a new design for an electronic calculator to compete with
+                    Olivetti Programma 101, one of the first programmable calculators. The
+                    difference would be in using integrated circuits and solid-state shift
+                    registers instead of printed circuits and expensive magnetostriction wire in
+                    the 101.
+                    <br>
+                    In contrast to earlier designs, a general-purpose processor concept was made,
+                    to later use it in cash registers and automatic teller machines.
+                    Intel assigned Marcian Hoff to act as the liaison between the two companies,
+                    who brought concern about the seven integrated circuits and the
+                    interconnections which would make Busicom's price goals impossible to meet.
+                    <br>
+                    He noticed that the compexity was due to every instructions being implemented
+                    separately, and suggested to support subroutine calls, but Busicom brought some
+                    specific issues, as some routines would use large amounts of ROM if implemented
+                    as subroutines.
+                    <br>
+                    Stanley Mazor joined Intel from Fairchild and with Hoff came up with solutions,
+                    resulting in an architecture that reduced the 7-chip Busicom design to a 4-chip
+                    Intel proposal. In April 1970 Faggin joined, introducing the SGT technology and
+                    "buried contacts" that allowed the silicon connecting wired to be directly
+                    connected to components, eliminating one step from the processing, which
+                    further simplified the chip and made it possible to create.
+                </p>
+            </div>
+
+            <div class="card card-image">
+                <h2 class="sub_title">Uses</h2>
+                <p>
+                    The first commercial use was the Busicom calculator 141-PF, and was also used
+                    in the first microprocessor-controlled pinball game, Bally, in 1974.
+                </p>
+                <div class="image">
+                    <img src="../../resources/1968-1979/busicom_141pf.jpg" alt=''>
+                    <p>Busicom 141-PF</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <address>Vasyl Damian</address>
+        <p>My pages:
+            <a class="link" href="./touchscreen.html">Touchscreen</a> /
+            <a class="link" href="./c.html">The C Programming Language</a> /
+            <a class="link" href="./unix.html">Unix</a>
+        </p>
+    </footer>
+
+    <!-- script for mobile sidebar -->
+    <script>
+        function openNav() {
+            document.getElementById("mobile_sidebar").style.width = "100%";
+        }
+        
+        function closeNav() {
+            document.getElementById("mobile_sidebar").style.width = "0%";
+        }
+    </script>
+
+    <!-- script for the clock -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../../templates/Clock/script.js"></script>
+</body>
+</html>

@@ -4,19 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Daniel Noshadha">
-    <title>Gaming was never being this easy</title>
+    <title>Gaming was never being so easy</title>
     <link rel="stylesheet" href="../../templates/reset.css"> <!-- reset css -->
-    <link rel="stylesheet" href="../../styles/2013-2023/13-23.css"> <!-- main css -->
     <link rel="stylesheet" href="../../templates/Clock/style.css"> <!-- main css -->
+    <link rel="stylesheet" href="../../styles/2013-2023/13-23.css"> <!-- main css -->
+    <!--broken links script-->
+    <script src="../../scripts/det_brkn_links.js"></script>
 </head>
-
 <body>
+    <!-- title -->
     <div id="title">
-        <!-- Your title -->
-        <h1 class="mainTitle">Gaming was never being this easy</h1>
+        <h1 class="mainTitle">Gaming was never being so easy</h1>
     </div>
 
+    <!-- content -->
     <div class="container">
+        <!-- button to open hamburger menu -->
+        <span id="hamburger" onclick="openNav()">&#9776;</span>
+
+        <!-- mobile sidebar -->
+        <div id="mobile_sidebar" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <div class="side-hero">
+                    <ul>
+                        <li class="home"><a href="../main/index.html">Home</a></li>
+                        <li class="about"><a href="../main/team.html">Team</a></li>
+                        <li class="source"><a href="../main/sources.html">Sources</a></li>
+                        <li class="contact"><a href="../main/link.html">Link</a></li>
+                    </ul>
+                    <div class="timeline-sidebar">
+                        <div class="circles">
+                            <!-- <div class="circle">
+                                <a href="../2013-2023/2013-2015_hardware.html">2012</a>
+                            </div> -->
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2015_hardware.html">2013</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2015_software.html">2014</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2015_programming_languages.html">2015</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2015_historical_events.html">2015</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/VR-technology-booming.html">2016</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/Famous-Softwares.html">2016</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/AI-begins-to-be-widely-known.html">2017</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/Big-evolution-of-processors.html">2018</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2023-breakthrough.html">2019</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2023-easy-gaming.html">2019</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2023-samsung-and-apple.html">2020</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/Valve-and-Tesla.html">2021</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/ChatGPT-and-AIs.html">2022</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/Crypto-winter.html">2020</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2023-software-changes.html">2020</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/Heroes.html">2023</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main sidebar -->
         <div class="sidebar">
             <div class="side-hero">
                 <div class="clock-container">
@@ -27,114 +103,149 @@
                     </div>
                     <div class="menu-hero">
                         <ul>
-                            <li id="home"><a href="">Home</a></li>
-                            <li id="about"><a href="">About</a></li>
-                            <li id="source"><a href="">Sources</a></li>
-                            <li id="contact"><a href="">Contact</a></li>
+                            <li class="home"><a href="../main/index.html">Home</a></li>
+                            <li class="about"><a href="../main/team.html">Team</a></li>
+                            <li class="source"><a href="../main/sources.html">Sources</a></li>
+                            <li class="contact"><a href="../main/link.html">Link</a></li>
                         </ul>
                     </div> 
                 </div> 
                 <div class="timeline-sidebar">
                     <div class="circles">
+                        <!-- <div class="circle">
+                            <a href="../2013-2023/2013-2015_hardware.html">2012</a>
+                        </div> -->
                         <div class="circle">
-                            <a href="../../html/template/template.html">2012</a>
+                            <a href="../2013-2023/2013-2015_hardware.html">2013</a>
                         </div>
                         <div class="circle">
-                            <a href="../../html/template/template.html">2013</a>
+                            <a href="../2013-2023/2013-2015_software.html">2014</a>
                         </div>
                         <div class="circle">
-                            <a href="../../html/template/template.html">2014</a>
+                            <a href="../2013-2023/2013-2015_programming_languages.html">2015</a>
                         </div>
                         <div class="circle">
-                            <a href="../../html/template/template.html">2015</a>
+                            <a href="../2013-2023/2013-2015_historical_events.html">2015</a>
                         </div>
                         <div class="circle">
-                            <a href="../../html/template/template.html">2016</a>
+                            <a href="../2013-2023/VR-technology-booming.html">2016</a>
                         </div>
                         <div class="circle">
-                            <a href="../../html/template/template.html">2017</a>
+                            <a href="../2013-2023/Famous-Softwares.html">2016</a>
                         </div>
                         <div class="circle">
-                            <a href="../../html/template/template.html">2018</a>
+                            <a href="../2013-2023/AI-begins-to-be-widely-known.html">2017</a>
                         </div>
                         <div class="circle">
-                            <a href="../../html/template/template.html">2019</a>
+                            <a href="../2013-2023/Big-evolution-of-processors.html">2018</a>
                         </div>
                         <div class="circle">
-                            <a href="../../html/template/template.html">2020</a>
+                            <a href="../2013-2023/2013-2023-breakthrough.html">2019</a>
                         </div>
                         <div class="circle">
-                            <a href="../../html/template/template.html">2021</a>
+                            <a href="../2013-2023/2013-2023-easy-gaming.html">2019</a>
                         </div>
                         <div class="circle">
-                            <a href="../../html/template/template.html">2022</a>
+                            <a href="../2013-2023/2013-2023-samsung-and-apple.html">2020</a>
                         </div>
                         <div class="circle">
-                            <a href="../../html/template/template.html">2023</a>
+                            <a href="../2013-2023/Valve-and-Tesla.html">2021</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/ChatGPT-and-AIs.html">2022</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/Crypto-winter.html">2020</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/2013-2023-software-changes.html">2020</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/Heroes.html">2023</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
-        <!-- main content where you can put yours informations -->
-        <div class="main">
 
-            <h2 class="sub_title"><span class="dash">/</span> Oculus Rift S - we are invading VR differently <span class="dash">/</span></h2> </br>
+        <!-- main content -->
+        <div class="main">
+            <h2 class="sub_title"><span class="dash">/</span> Oculus Rift S - we are invading VR differently <span class="dash">/</span></h2>
+            <br>
             <div class="text_container_gray">
-                <p class="text" align="justify">
+                <p class="text" style="text-align: justify">
                     With the release of these two new headsets, Oculus is making it easier than ever to get into VR gaming. The Rift S is a great option for PC gamers who want a high-quality VR experience, while the standalone headset is perfect for casual gamers who want a more mobile experience.
                     <br>Both headsets offer a wide variety of games to play, from action-packed shooters to relaxing puzzles. With so many great options available, there's something for everyone in the world of VR gaming. 
                     <br>Overall, the release of these two new headsets is a major step forward for VR gaming. Oculus is making it easier than ever to get into VR, and with so many great games available, there's no reason not to give it a try.
                 
                 </p>
                 <img class="image" style="width: 50vw; height: 40vh; top: 30px;" src="../../resources/2013-2023/rift_s.jpg" alt="placeholder">
-            </div> </br></br></br>
+            </div>
 
-            <!--Example of a sub title-->
-            <center><h2 class="sub_title"> <span class="dash">/</span> Gaming on pc will improve - AMD Ryzen 9 ?? <span class="dash">/</span></h2></center></br>
-            <!--Example of div with text and table-->
+            <br><br><br>
+
+            <h2 class="sub_title"> <span class="dash">/</span> Gaming on pc will improve - AMD Ryzen 9 ?? <span class="dash">/</span></h2>
+            <br>
             <div class="text_container_white">
                 <img class="image" style="width: 25vw; height: 40vh; display: inline-block; margin-left: 40px;" src="../../resources/2013-2023/ryzen-9.jpg" alt="placeholder">
-                
-                <img class="image" style="width: 25vw; height: 40vh; display: inline-block; float: right; margin-right: 40px;" src="../../resources/2013-2023/ryzen-9-2.jpg" alt="placeholder">
-                <p class="text" align="justify">
+                <img class="image" style="width: 25vw; height: 40vh; float: right; margin-right: 40px;" src="../../resources/2013-2023/ryzen-9-2.jpg" alt="placeholder">
+                <p class="text" style="text-align: justify">
                     In 2019, AMD released two high-performance desktop processors, the Ryzen 9 3900X and Ryzen 9 3950X, that revolutionized the gaming and content creation landscape. These powerful chips offered significant performance improvements over previous generations, making it easier than ever to enjoy demanding games and create stunning content. 
-                    <br>The Ryzen 9 3900X, a 12-core, 24-thread processor, quickly became a favorite among gamers due to its high performance and affordable price. It could handle even the most intense multiplayer battles and immersive open-world environments with ease.
-                    <br>For content creators, the Ryzen 9 3950X was the ultimate choice. Its 16 cores and 32 threads provided the processing power needed to tackle even the most demanding creative tasks, such as rendering high-resolution videos, editing complex photo projects, and creating intricate 3D animations.
-                    <br>AMD's Ryzen 9 processors ushered in a new era of gaming and content creation, making it easier than ever to enjoy the most demanding experiences. With their high performance, affordable pricing, and power efficiency, the Ryzen 9 3900X and Ryzen 9 3950X quickly became the go-to choices for discerning gamers, content creators, and tech enthusiasts worldwide.
-                </p></br></br>
-
+                    <br>
+                    The Ryzen 9 3900X, a 12-core, 24-thread processor, quickly became a favorite among gamers due to its high performance and affordable price. It could handle even the most intense multiplayer battles and immersive open-world environments with ease.
+                    <br>
+                    For content creators, the Ryzen 9 3950X was the ultimate choice. Its 16 cores and 32 threads provided the processing power needed to tackle even the most demanding creative tasks, such as rendering high-resolution videos, editing complex photo projects, and creating intricate 3D animations.
+                    <br>
+                    AMD's Ryzen 9 processors ushered in a new era of gaming and content creation, making it easier than ever to enjoy the most demanding experiences. With their high performance, affordable pricing, and power efficiency, the Ryzen 9 3900X and Ryzen 9 3950X quickly became the go-to choices for discerning gamers, content creators, and tech enthusiasts worldwide.
+                </p>
             </div>
-            
 
-            <h2 class="sub_title" style="float: right;"><span class="dash">/</span> 5G - get ready, we are connecting <span class="dash">/</span></h2> </br></br>
+            <br><br>
+
+            <h2 class="sub_title" style="float: right;"><span class="dash">/</span> 5G - get ready, we are connecting <span class="dash">/</span></h2> 
+            <br>
+            <br>
             <div class="text_container_gray">
                 <img class="image" style="width: 40vw; height: 57vh; top: 30px;" src="../../resources/2013-2023/5g.jpg" alt="placeholder">
-                <p class="text" align="justify">
-                    <br>5G's impact extends far beyond just speed. Its ultra-low latency, the time it takes for a signal to travel from one point to another, will open up new frontiers in real-time applications. Imagine self-driving cars communicating with each other and with infrastructure in real time, or surgeons performing operations remotely with the precision and dexterity of being physically present.
-                    <br><br>5G's massive capacity will enable the connection of billions of devices, paving the way for the Internet of Things (IoT) to truly take off. Smart homes, connected cities, and industrial automation will all be powered by 5G, creating a world where everything is connected and data is exchanged seamlessly.
-                    <br><br>5G is not just a new technology; it is a transformative force that will reshape our world. Its impact will be felt in every aspect of our lives, from the way we communicate and work to the way we consume entertainment and interact with our environment.
+                <p class="text" style="text-align: justify">
+                    <br>
+                    5G's impact extends far beyond just speed. Its ultra-low latency, the time it takes for a signal to travel from one point to another, will open up new frontiers in real-time applications. Imagine self-driving cars communicating with each other and with infrastructure in real time, or surgeons performing operations remotely with the precision and dexterity of being physically present.
+                    <br>
+                    <br>
+                    5G's massive capacity will enable the connection of billions of devices, paving the way for the Internet of Things (IoT) to truly take off. Smart homes, connected cities, and industrial automation will all be powered by 5G, creating a world where everything is connected and data is exchanged seamlessly.
+                    <br>
+                    <br>
+                    5G is not just a new technology; it is a transformative force that will reshape our world. Its impact will be felt in every aspect of our lives, from the way we communicate and work to the way we consume entertainment and interact with our environment.
                 </p>
-                
-            </div> </br></br></br>
-
-             
-            
-           
+            </div>
+            <br><br><br>
         </div>
-        <div class="nofloat"></div>
     </div>
+
+    <!-- footer -->
+    
+    <footer>
+        <address>Daniel Noshadha</address>
+        <p class="footer_text">My pages:
+            <a href="2013-2023-breakthrough.html">2013-2023-breakthrough</a> /
+            <a href="2013-2023-samsung-and-apple.html">2013-2023-samsung-and-apple</a> /
+            <a href="2013-2023-software-changes.html">2013-2023-software-changes</a>
+        </p>
+    </footer>
+    
+    <!-- script for mobile sidebar -->
+    <script>
+        function openNav() {
+            document.getElementById("mobile_sidebar").style.width = "100%";
+        }
+        
+        function closeNav() {
+            document.getElementById("mobile_sidebar").style.width = "0%";
+        }
+    </script>
+
+    <!-- clock script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../../templates/Clock/script.js"></script> 
 </body>
-
-<footer>
-    <h3 class="footer_text"><address>Daniel Noshadha</address></h3>
-    <p class="footer_text">My pages:
-        <a>2013-2023-breakthrough</a> /
-        <a>name-of-other-page-of-mine</a> /
-        <a>name-of-other-page-of-mine</a>
-    </p>
-</footer>
-
-<script src="../../templates/Clock/script.js"></script> 
 </html>

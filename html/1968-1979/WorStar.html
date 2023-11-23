@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="Adrian Cazar">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Adrian Cazar">
+    <title>WordStar</title>
+    <link rel="stylesheet" href="../../templates/reset.css"> <!-- reset css -->
+    <link rel="stylesheet" href="../../templates/Clock/style.css"> <!-- clock css -->
+    <link rel="stylesheet" href="../../styles/1968-1979/68-79.css"> <!-- main css -->
+    <!--broken links script-->
+    <script src="../../scripts/det_brkn_links.js"></script>
+</head>
+
+<body>
+    <!-- title -->
+    <div id="title">
+        <h1 class="mainTitle">1978: WordStar</h1>
+    </div>
+
+    <!-- content -->
+    <div class="container">
+        <!-- button to open hamburger menu -->
+        <span id="hamburger" onclick="openNav()">&#9776;</span>
+
+        <!-- mobile sidebar -->
+        <div id="mobile_sidebar" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <div class="side-hero">
+                    <ul>
+                        <li class="home"><a href="../main/index.html">Home</a></li>
+                        <li class="about"><a href="../main/team.html">Team</a></li>
+                        <li class="source"><a href="../main/sources.html">Sources</a></li>
+                        <li class="contact"><a href="../main/link.html">Link</a></li>
+                    </ul>
+                    <div class="timeline-sidebar">
+                        <div class="circles">
+                            <div class="circle">
+                                <a href="../1968-1979/intel-amd-foundation.html">1968</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/arpanet-first-message.html">1969</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/alu74181.html">1970</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/game-of-life.html">1970</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/intel4004.html">1971</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/c.html">1972</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/touchscreen.html">1972</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/unix.html">1973</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/intel8080.html">1974</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/microsoft-found.html">1975</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/ibm5100.html">1975</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/altair.html">1975</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/apple1.html">1976</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/VAXmic.html">1977</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/home_computer_race.html">1977</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../1968-1979/WorStar.html">1978</a>
+                            </div>
+                            
+                            <div class="circle">
+                                <a href="../1968-1979/VisiCalc.html">1979</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main sidebar -->
+        <div class="sidebar">
+            <div class="side-hero">
+                <div class="clock-container">
+                    <div class="clock-hero">
+                        <div class="clock">
+                            <div class="hand"></div>
+                        </div>
+                    </div>
+                    <div class="menu-hero">
+                        <ul>
+                            <li class="home"><a href="../main/index.html">Home</a></li>
+                            <li class="about"><a href="../main/team.html">Team</a></li>
+                            <li class="source"><a href="../main/sources.html">Sources</a></li>
+                            <li class="contact"><a href="../main/link.html">Link</a></li>
+                        </ul>
+                    </div> 
+                </div> 
+                <div class="timeline-sidebar">
+                    <div class="circles">
+                        <div class="circle">
+                            <a href="../1968-1979/intel-amd-foundation.html">1968</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/arpanet-first-message.html">1969</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/alu74181.html">1970</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/game-of-life.html">1970</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/intel4004.html">1971</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/c.html">1972</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/touchscreen.html">1972</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/unix.html">1973</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/intel8080.html">1974</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/microsoft-found.html">1975</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/ibm5100.html">1975</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/altair.html">1975</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/apple1.html">1976</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/VAXmic.html">1977</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/home_computer_race.html">1977</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../1968-1979/WorStar.html">1978</a>
+                        </div>
+                        
+                        <div class="circle">
+                            <a href="../1968-1979/VisiCalc.html">1979</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main content -->
+        <div class="main">
+            <div class="card" style="border: none; padding: 0;">
+                <h2 class="sub_title">What is WordStar?</h2>
+                <p>
+                    WordStar is a microcomputer word processing application that was invented in 1978 by businessman 
+                    and software developer Seymour I. Rubinstein and Rob Barnaby.This software allows users to write 
+                    and update documents, create text layouts, and preview the printed version of the document on the 
+                    monitor. WordStar became popular around the domain of personal computer software due to its user 
+                    friendly interface. This whole idea started in <a href="https://www.imsai.net">IMS</a> Associates INC, where Seymour Rubinstein, and R.
+                    Barnaby got in contact. However in the late 1970’s, Rubinstein left IMSAI to found his own company
+                    called MicroPro International Inc, where he persuaded Barnaby to join the project he had in mind 
+                    of developing two different softwares: 
+                    <br>
+                    <br>
+                    WordMaster (an editor)
+                    <br>
+                    SuperSort (a sorting program)
+                    <br>
+                    <br>
+                    However as soon as these two projects were done, Barnaby started working on a new project idea by Rubinstein, WordStar.
+                    On September 1978, version 1 of WordStar for <a href="https://es.wikipedia.org/wiki/CP/M">CP/M</a> was released.
+                </p>
+            </div>
+
+            <div class="card card-image">
+                <h2 class="sub_title">The minds behind the software </h2>
+                <div>
+                    <div class="image">
+                        <img src='../../resources/1968-1979/Rubin_BARNABY.jpeg' alt="">
+                        <p>Rob Barnaby and Seymour Rubinstein </p>
+                    </div>
+                    <p>
+                        Seymour Ivan Rubinstein 
+                        <br>
+                        <br>
+                        Seymour Ivan Rubinstein was an American entrepreneur and software developer born in 1934. Rubinstein is known to be the man who led the 
+                        business aspect of his industry MicroPro Associates Inc. and the man who came up with the idea for WordStar. 
+                        He started his career and first got involved with software development in IMSAI, on which he was the marketing head of the company and an 
+                        assembly code programmer. 
+                        <br>
+                        <br>
+                        Rob Barnaby
+                        <br
+                        ><br>
+                        Rob Barnaby was the lead programmer at MicroPro and is acknowledge to be the main developer of WordStar.
+                        His main contribution to the project was designing the code for WordStar and the future development and upgrades of the software, 
+                        however, he is also a relevant in figure for the CP/M operating system since in his early career, he worked as a developer to enhance 
+                        features of CP/M.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card card-image">
+                    <h2 class="sub_title">How does WordStar work?</h2>
+                    <p>
+                        WordStar is a command based word processor software, in which users interact with the application by inserting 
+                        pre-defined commands. This application was designed for the CP/M operating system, which in the early days,
+                        was implemented very commonly in personal computers. In this application, users could easily scroll and travel 
+                        through documents and editing them sticking to the commands provided by the software, and therefore being able to 
+                        produce better looking and more professional documents. 
+                    </p>
+                    <div class="image">
+                        <img src='../../resources/1968-1979/WSP.png' alt=''>
+                        <p>WordStar ss.</p>
+                    </div>
+            </div>
+
+            <div class="card" style="border: none; padding: 0;">
+                <h2 class="sub_title">Relevance and Legacy</h2>
+                <p>
+                    WordStar became a pioneer application in the field of work processing software, due to its various features and 
+                    concepts that it implemented, and nowadays are standard in the field of text editors and word processing tools. 
+                    One of the characteristics that led to its big influence and therefore to a long lasting legacy is the fact that it was
+                    standardised just a few years after its development, which influenced a lot on the way people approached the processes 
+                    of creating and editing a text document. Finally, its user interface was very likeable and user friendly, 
+                    therefore many modern word processing softwares take bases from WordStar to develop a linkable user interface. 
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <address>Adrian Cazar</address>
+        <p>My pages:
+            <a href="./home_computer_race.html">Home Computer Race 1977</a> /
+            <a href="./VAXmic.html">Vax microcomputer</a>/
+            <a href="./VisiCalc.html">VisiCalc spreadsheet</a>
+        </p>
+    </footer>
+
+    <!-- script for mobile sidebar -->
+    <script>
+        function openNav() {
+            document.getElementById("mobile_sidebar").style.width = "100%";
+        }
+        
+        function closeNav() {
+            document.getElementById("mobile_sidebar").style.width = "0%";
+        }
+        </script>
+
+    <!-- script for the clock -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../../templates/Clock/script.js"></script>
+</body>
+</html>

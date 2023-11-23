@@ -194,6 +194,13 @@ body {
     box-shadow: 1vh 1vh var(--clr-neutral-900);
 }
 
+
+.center {
+
+    flex-direction: column;
+
+}
+
 .start_text{
     display: var(--dv-display);
     flex-direction: row;
@@ -281,6 +288,15 @@ table td{
     padding: 0 10px 0 20px;
     margin: 1vh;
 }
+
+.listcentering {
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+    justify-content: center;
+
+}
+
 
 /* footer */
 footer {
@@ -384,6 +400,10 @@ footer {
 
     .main {
         width: 100vw;
+    }
+
+    .sub_title {
+        width: auto;
     }
 }
 

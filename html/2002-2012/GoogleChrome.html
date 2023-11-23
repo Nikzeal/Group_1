@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Christian Webb">
+    <title>Google Chrome</title>
+    <link rel="stylesheet" href="../../templates/reset.css"> <!-- css reset -->
+    <link rel="stylesheet" href="../../styles/2002-2012/home_02-12.css"> <!-- css of homepage -->
+    <link rel="stylesheet" href="../../styles/2002-2012/02-12.css"> <!-- css of each subpage -->
+    <!--broken links script-->
+    <script src="../../scripts/det_brkn_links.js"></script>
+</head>
+<body>
+    <!-- title -->
+    <div id="title">
+        <h1 class="mainTitle">Google Chrome</h1>
+    </div>
+
+    <!-- content -->
+    <div class="container">
+        <!-- button to open hamburger menu -->
+        <span id="hamburger" onclick="openNav()">&#9776;</span>
+
+        <!-- mobile sidebar -->
+        <div id="mobile_sidebar" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <div class="side-hero">
+                    <ul>
+                        <li class="home"><a href="../main/index.html">Home</a></li>
+                        <li class="about"><a href="../main/team.html">Team</a></li>
+                        <li class="source"><a href="../main/sources.html">Sources</a></li>
+                        <li class="contact"><a href="../main/link.html">Link</a></li>
+                    </ul>
+                    <div class="timeline-sidebar">
+                        <div class="circles">
+                            <div class="circle">
+                                <a href="../2002-2012/Wikipedia.html">2002</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2002-2012/WIFI.html">2002</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2002-2012/CloudComputing.html">2002</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2002-2012/Skype.html">2003</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2002-2012/IBM.html">2004</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2002-2012/IphoneLaunch.html">2007</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2002-2012/MicrosoftReleasesWindowsVista.html">2007</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2002-2012/AppStore.html">2008</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2002-2012/GoogleChrome.html">2008</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2002-2012/IBMroadrunner_Supercomputer.html">2008</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2002-2012/HTML5.html">2010</a>
+                            </div>
+                            <!-- <div class="circle">
+                                <a href="../2002-2012/AppStore.html">2012</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main sidebar -->
+        <div class="sidebar">
+            <div class="side-hero">
+                <div class="clock-container">
+                    <div class="clock-hero">
+                        <div class="clock">
+                            <div class="hand"></div>
+                        </div>
+                    </div>
+                    <div class="menu-hero">
+                        <ul>
+                            <li class="home"><a href="../main/index.html">Home</a></li>
+                            <li class="about"><a href="../main/team.html">Team</a></li>
+                            <li class="source"><a href="../main/sources.html">Sources</a></li>
+                            <li class="contact"><a href="../main/link.html">Link</a></li>
+                        </ul>
+                    </div> 
+                </div> 
+                <div class="timeline-sidebar">
+                    <div class="circles">
+                        <div class="circle">
+                            <a href="../2002-2012/Wikipedia.html">2002</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2002-2012/WIFI.html">2002</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2002-2012/CloudComputing.html">2002</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2002-2012/Skype.html">2003</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2002-2012/IBM.html">2004</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2002-2012/IphoneLaunch.html">2007</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2002-2012/MicrosoftReleasesWindowsVista.html">2007</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2002-2012/AppStore.html">2008</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2002-2012/GoogleChrome.html">2008</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2002-2012/IBMroadrunner_Supercomputer.html">2008</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2002-2012/HTML5.html">2010</a>
+                        </div>
+                        <!-- <div class="circle">
+                            <a href="../2002-2012/AppStore.html">2012</a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main content -->
+        <div class="timeline">
+            <div class="detail-timeline">
+                <details class="info_box">
+                    <summary>CEO Opposition </summary>
+                    <img src="../../resources/2002-2012/EricSchmidt.jpg" alt="" class="img_box float_l">
+                    <p class="text">
+                        Initially, the CEO of Google was opposed to the idea of developing a web browser. He said that at the time, Google was a "small company" and did not want to go through a browser war.
+                    </p>
+                    <p class="text">
+                        After hiring developers who previously worked on the Firefox browser, they built a prototype and the CEO said that "it was so good that it essentially forced me to change my mind"
+                    </p>
+                </details>
+            </div>
+
+            <div class="detail-timeline">
+                <details class="info_box">
+                    <summary>Introduction to the market</summary>
+                    <img src="../../resources/2002-2012/WebComic.png" alt="" class="img_box float_l">
+                    <p class="text">
+                        In September 2004, rumours that Google was building a web browser first appeared. Journalists noticed that Google was starting to hire former Microsoft developers.
+                        Google introduced Google Chrome in September 2008.
+                        A 38-page comic by Scott McCloud was sent to various journalists. to explain the features within the new browser
+                    </p>
+                    <div class="nofloat"></div>
+                </details>
+            </div>
+
+            <div class="detail-timeline">
+                <details class="info_box">
+                    <summary>Naming</summary>
+                    <p class="text">
+                        "Chrome" was an initial development project code name, because it is associated with fast cars and speed. Google then decided to keep the name.
+                        The name "Chrome" also doesn't contain any cultural or religious references, as well as being easy to understand and pronounce in any language.
+                    </p>
+                </details>
+            </div>
+
+            <div class="detail-timeline">
+                <details class="info_box">
+                    <summary>Key Features</summary>
+                    <p class="text">
+                        Google Chrome contained numerous new features that haven't been seen in any other browser before, such as a new tab page that displayed the most visited sites.
+                        The browser quickly gained popularity due to its minimalistic and sleek interface, as well as becoming renowned amongst users for its performance.
+                        It introduced a new JavaScript engine called V8, designed to execute JavaScript code more quickly than other browsers.
+                        Unlike other browsers, Google Chrome treated each tab as a separate process. This means if one tab crashed, it wouldn't necessarily affect the entire browser.
+                    </p>
+                </details>
+            </div>
+
+            <div class="detail-timeline">
+                <details class="info_box">
+                    <summary>Rise to dominance</summary>
+                    <p class="text">
+                        Chrome quickly gained about 1% market share. After release, market share then kept dropping until it hit a low of 0.69% in October 2008.
+                        It then started rising again and by December 2008, Chrome again passed 1% market share.
+                        Chrome overtook Firefox in November 2011. Chrome now has 67%  desktop market share, making it the most popular web browser.
+                        The success of Chrome has been attributed to its speed, performance, and the integration of other popular Google services.
+                    </p>
+                </details>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <address>Christian Webb</address>
+        <p>My pages:
+            <a href="./GoogleChrome.html">Google Chrome</a> /
+            <a href="./AppStore.html">App Store</a> /
+            <a href="./CloudComputing.html">Cloud Computing</a> /
+            <a href="HTML5.html">HTML5</a>
+        </p>
+    </footer>
+
+    <!-- script for mobile sidebar -->
+    <script>
+        function openNav() {
+            document.getElementById("mobile_sidebar").style.width = "100%";
+        }
+        
+        function closeNav() {
+            document.getElementById("mobile_sidebar").style.width = "0%";
+        }
+    </script>
+
+    <!-- script for the clock -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../../templates/Clock/script.js"></script>
+</body>
+</html>

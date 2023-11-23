@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gaia Aterini">
+    <title>Heroes</title>
+    <link rel="stylesheet" href="../../templates/reset.css"> <!-- reset css -->
+    <link rel="stylesheet" href="../../templates/Clock/style.css"> <!-- clock css -->
+    <link rel="stylesheet" href="../../styles/2013-2023/13-23.css"> <!-- main css -->
+    <!--broken links script-->
+    <script src="../../scripts/det_brkn_links.js"></script>
+</head>
+<body>
+    <!-- title -->
+    <div id="title">
+        <h1 class="mainTitle">Heroes, dead and alive</h1>
+    </div>
+
+    <!-- content -->
+    <div class="container">
+        <!-- button to open hamburger menu -->
+        <span id="hamburger" onclick="openNav()">&#9776;</span>
+
+        <!-- mobile sidebar -->
+        <div id="mobile_sidebar" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <div class="side-hero">
+                    <ul>
+                        <li class="home"><a href="../main/index.html">Home</a></li>
+                        <li class="about"><a href="../main/team.html">Team</a></li>
+                        <li class="source"><a href="../main/sources.html">Sources</a></li>
+                        <li class="contact"><a href="../main/link.html">Link</a></li>
+                    </ul>
+                    <div class="timeline-sidebar">
+                        <div class="circles">
+                            <!-- <div class="circle">
+                                <a href="../2013-2023/2013-2015_hardware.html">2012</a>
+                            </div> -->
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2015_hardware.html">2013</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2015_software.html">2014</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2015_programming_languages.html">2015</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2015_historical_events.html">2015</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/VR-technology-booming.html">2016</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/Famous-Softwares.html">2016</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/AI-begins-to-be-widely-known.html">2017</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/Big-evolution-of-processors.html">2018</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2023-breakthrough.html">2019</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2023-easy-gaming.html">2019</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2023-samsung-and-apple.html">2020</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/Valve-and-Tesla.html">2021</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/ChatGPT-and-AIs.html">2022</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/Crypto-winter.html">2020</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2023-software-changes.html">2020</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/Heroes.html">2023</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main sidebar -->
+        <div class="sidebar">
+            <div class="side-hero">
+                <div class="clock-container">
+                    <div class="clock-hero">
+                        <div class="clock">
+                            <div class="hand"></div>
+                        </div>
+                    </div>
+                    <div class="menu-hero">
+                        <ul>
+                            <li class="home"><a href="../main/index.html">Home</a></li>
+                            <li class="about"><a href="../main/team.html">Team</a></li>
+                            <li class="source"><a href="../main/sources.html">Sources</a></li>
+                            <li class="contact"><a href="../main/link.html">Link</a></li>
+                        </ul>
+                    </div> 
+                </div> 
+                <div class="timeline-sidebar">
+                    <div class="circles">
+                        <!-- <div class="circle">
+                            <a href="../2013-2023/2013-2015_hardware.html">2012</a>
+                        </div> -->
+                        <div class="circle">
+                            <a href="../2013-2023/2013-2015_hardware.html">2013</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/2013-2015_software.html">2014</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/2013-2015_programming_languages.html">2015</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/2013-2015_historical_events.html">2015</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/VR-technology-booming.html">2016</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/Famous-Softwares.html">2016</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/AI-begins-to-be-widely-known.html">2017</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/Big-evolution-of-processors.html">2018</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/2013-2023-breakthrough.html">2019</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/2013-2023-easy-gaming.html">2019</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/2013-2023-samsung-and-apple.html">2020</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/Valve-and-Tesla.html">2021</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/ChatGPT-and-AIs.html">2022</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/Crypto-winter.html">2020</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/2013-2023-software-changes.html">2020</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/Heroes.html">2023</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main content -->
+        <div class="main">
+            <h2 class="sub_title"> <span class="dash">/</span> Heroes died, but will always be remembered <span class="dash">/</span></h2>
+            <div class="text_container_white">
+                <p class="text">
+                    2023 was a wonderful year for technology. But, while anything less than immortality is, ultimately, unaccettable, humanity still is mortal. Thus, some heroes for the history of technology, died this year. We will always remember them, and, hopefully, they will be remembered.
+                </p>
+            </div>
+
+            <div class="text_container_white">
+                <div class="list">
+                    <ul>
+                        <li>Gordon Moore, the inventor of the Moore's law, passed away on march.</li> 
+                        <li>Kevin Mitnick, passed away in July. He invented the IP Spoofing technique.</li>
+                        <li>Molly Holszchlang passed away in September. She was a famous writer for the Open Web, and wrote or co-wrote many books on web design, and css.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <br>
+            <hr>
+            <br>
+        
+            <h2 class="sub_title"><span class="dash">/</span> CAIS (Center for AIs safety) statement <span class="dash">/</span></h2>
+            <div class="text_container_gray">
+                <p class="text">
+                    2023 was and may still be an important year for the history of computers. Many reasons may be forgotten eventually, but the most important reasons are one. Heroes. Heroes of technology and heroes of advancements. Protection. The first and most important heroes are the people at CAIS, the center for AI safety. During this year, they released a statement from OpenAI and DeepMind, Turing Award winners, and other AI (artificial intelligence) researcherswarningthat theirlife's work on AI could potentially extinguish humanity.
+                    Of course, the prospective seems strange and otherwordly, pure fantasy or sci-fi. Yet, if people do not learn how to treat AIs properly and more panics ensue, like it happened in the previous years, this wonderful technology could really spell the doom of humanity as we know it. In the far, far, future of course.
+                </p>
+                <img class="image" src="../../resources/2013-2023/CAISsymbol.jpeg" alt="CAISsymbol">
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <address>Gaia Aterini</address>
+        <p>My pages:
+            <a href="Valve-and-Tesla.html">Valve-and-Tesla</a> /
+            <a href="ChatGPT-and-AIs.html">ChatGPT-and-AIs</a> /
+            <a href="Crypto-winter.html">Crypto-winter</a>
+        </p>
+    </footer>
+    
+    <!-- script for mobile sidebar -->
+    <script>
+        function openNav() {
+            document.getElementById("mobile_sidebar").style.width = "100%";
+        }
+        
+        function closeNav() {
+            document.getElementById("mobile_sidebar").style.width = "0%";
+        }
+    </script>
+
+    <!-- clock script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../../templates/Clock/script.js"></script> 
+</body>
+</html>

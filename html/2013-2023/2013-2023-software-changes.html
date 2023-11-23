@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Noshadha">
+    <title>Software is changing</title>
+    <link rel="stylesheet" href="../../templates/reset.css"> <!-- reset css -->
+    <link rel="stylesheet" href="../../templates/Clock/style.css"> <!-- main css -->
+    <link rel="stylesheet" href="../../styles/2013-2023/13-23.css"> <!-- main css -->
+    <!--broken links script-->
+    <script src="../../scripts/det_brkn_links.js"></script>
+</head>
+<body>
+    <!-- title -->
+    <div id="title">
+        <h1 class="mainTitle">Software is changing</h1>
+    </div>
+
+    <!-- content -->
+    <div class="container">
+        <!-- button to open hamburger menu -->
+        <span id="hamburger" onclick="openNav()">&#9776;</span>
+
+        <!-- mobile sidebar -->
+        <div id="mobile_sidebar" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <div class="side-hero">
+                    <ul>
+                        <li class="home"><a href="../main/index.html">Home</a></li>
+                        <li class="about"><a href="../main/team.html">Team</a></li>
+                        <li class="source"><a href="../main/sources.html">Sources</a></li>
+                        <li class="contact"><a href="../main/link.html">Link</a></li>
+                    </ul>
+                    <div class="timeline-sidebar">
+                        <div class="circles">
+                            <!-- <div class="circle">
+                                <a href="../2013-2023/2013-2015_hardware.html">2012</a>
+                            </div> -->
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2015_hardware.html">2013</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2015_software.html">2014</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2015_programming_languages.html">2015</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2015_historical_events.html">2015</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/VR-technology-booming.html">2016</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/Famous-Softwares.html">2016</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/AI-begins-to-be-widely-known.html">2017</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/Big-evolution-of-processors.html">2018</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2023-breakthrough.html">2019</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2023-easy-gaming.html">2019</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2023-samsung-and-apple.html">2020</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/Valve-and-Tesla.html">2021</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/ChatGPT-and-AIs.html">2022</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/Crypto-winter.html">2020</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/2013-2023-software-changes.html">2020</a>
+                            </div>
+                            <div class="circle">
+                                <a href="../2013-2023/Heroes.html">2023</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main sidebar -->
+        <div class="sidebar">
+            <div class="side-hero">
+                <div class="clock-container">
+                    <div class="clock-hero">
+                        <div class="clock">
+                            <div class="hand"></div>
+                        </div>
+                    </div>
+                    <div class="menu-hero">
+                        <ul>
+                            <li class="home"><a href="../main/index.html">Home</a></li>
+                            <li class="about"><a href="../main/team.html">Team</a></li>
+                            <li class="source"><a href="../main/sources.html">Sources</a></li>
+                            <li class="contact"><a href="../main/link.html">Link</a></li>
+                        </ul>
+                    </div> 
+                </div> 
+                <div class="timeline-sidebar">
+                    <div class="circles">
+                        <!-- <div class="circle">
+                            <a href="../2013-2023/2013-2015_hardware.html">2012</a>
+                        </div> -->
+                        <div class="circle">
+                            <a href="../2013-2023/2013-2015_hardware.html">2013</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/2013-2015_software.html">2014</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/2013-2015_programming_languages.html">2015</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/2013-2015_historical_events.html">2015</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/VR-technology-booming.html">2016</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/Famous-Softwares.html">2016</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/AI-begins-to-be-widely-known.html">2017</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/Big-evolution-of-processors.html">2018</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/2013-2023-breakthrough.html">2019</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/2013-2023-easy-gaming.html">2019</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/2013-2023-samsung-and-apple.html">2020</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/Valve-and-Tesla.html">2021</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/ChatGPT-and-AIs.html">2022</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/Crypto-winter.html">2020</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/2013-2023-software-changes.html">2020</a>
+                        </div>
+                        <div class="circle">
+                            <a href="../2013-2023/Heroes.html">2023</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main content -->
+        <div class="main">    
+            <h2 class="sub_title"><span class="dash">/</span> ChatGPT 3 - A Revolutionary Conversation Engine <span class="dash">/</span></h2> 
+            <br>
+            <div class="text_container_gray">
+                <p class="text" style="text-align: justify">
+                    Unveiled in 2020, ChatGPT 3, a large language model (LLM) from OpenAI, has revolutionized the way we interact with computers, setting a new benchmark for natural language processing and machine learning. This remarkable innovation possesses the extraordinary ability to engage in seamless and comprehensive conversations with humans, surpassing traditional chatbots that rely on predefined responses and limited language capabilities.
+                    <br><br>ChatGPT 3's impact extends beyond mere entertainment, finding applications in education, customer service, and healthcare. In education, it serves as a personalized tutor, providing tailored instruction and answering students' questions comprehensively and informatively. In customer service, it empowers companies to offer 24/7 support, resolving customer inquiries efficiently and effectively. In healthcare, it assists medical professionals in acquiring knowledge, analyzing patient data, and providing personalized care plans.
+                    <br><br>ChatGPT 3 marks a significant leap forward in artificial intelligence, blurring the lines between human and machine interaction. Its ability to engage in natural and meaningful conversations has opened up a world of possibilities, paving the way for a future where AI plays an increasingly integrated role in our daily lives.
+                </p>
+                <img class="image" style="width: 30vw; height: 55vh; top: 30px;" src="../../resources/2013-2023/chat-gpt-3.jpg" alt="placeholder">
+            </div>
+
+            <br><br><br>
+
+            <h2 class="sub_title"> <span class="dash">/</span> You were a good friend Windows 7... <span class="dash">/</span></h2>
+            <br>
+            <div class="text_container_white">
+                <img class="image" style="width: 25vw; height: 40vh; display: inline-block;" src="../../resources/2013-2023/w7.jpg" alt="placeholder">
+                <img class="image" style="width: 25vw; height: 40vh; display: inline-block;" src="../../resources/2013-2023/w7-w10.jpg" alt="placeholder">
+                <img class="image" style="width: 25vw; height: 40vh; display: inline-block;" src="../../resources/2013-2023/w10.jpg" alt="placeholder">
+                <p class="text" style="text-align: justify">
+                    The year 2020 marked a significant milestone in the world of computing, as Microsoft officially ended support for Windows 7 on January 14. This decision, announced years prior, signified a shift in Microsoft's focus towards newer and more secure technologies.
+                    <br><br>With the end of support, Microsoft ceased providing security updates or patches for Windows 7, leaving users vulnerable to newly discovered software vulnerabilities. This posed a significant risk, particularly for businesses and organizations that relied heavily on Windows 7 for their operations.
+                    <br><br>Microsoft strongly encouraged users to upgrade to Windows 10, its latest operating system, which offered enhanced security features and improved performance. However, the transition from Windows 7 to Windows 10 was not without its challenges, ranging from compatibility issues with older hardware to financial considerations. The end of Windows 7's support served as a reminder of the ever-evolving nature of technology and the importance of staying up-to-date with the latest security measures.
+                </p>
+            </div>
+
+            <br><br>
+
+            <h2 class="sub_title" style="float: right;"><span class="dash">/</span> The Web Security Landscape in 2020- A Year of Challenges and Discussions <span class="dash">/</span></h2> 
+            <br>
+            <br>
+            <div class="text_container_gray">
+                <img class="image" style="width: 40vw; height: 57vh; top: 30px;" src="../../resources/2013-2023/cyber-attack.jpg" alt="placeholder">
+                <p class="text" style="text-align: justify">
+                    2020 was a defining year for web security, marked by a rise in cyberattacks, evolving threat landscapes, and growing concerns over privacy and data protection. Supply chain attacks, sophisticated phishing tactics, and persistent data breaches posed significant threats, while heightened awareness of data privacy issues sparked discussions and debates about user rights and data protection regulations.
+                    <br>
+                    <br>
+                    In response to these challenges, the field of web security witnessed remarkable advancements in 2020. Cybersecurity researchers developed innovative techniques to detect and mitigate attacks, organizations implemented stronger security measures, and governments took steps to regulate data privacy and establish cybersecurity cooperation frameworks.
+                    <br>
+                    <br>
+                    Overall, 2020 was a pivotal year in addressing the escalating challenges posed by web security threats. The year marked a turning point, not only in acknowledging the severity of these challenges but also in fostering a collective commitment to protecting the digital world and its users.
+                </p>
+            </div>
+            <br><br><br>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <address>Daniel Noshadha</address>
+        <p class="footer_text">My pages:
+            <a href="2013-2023-breakthrough.html">2013-2023-breakthrough</a> /
+            <a href="2013-2023-easy-gaming.html">2013-2023-easy-gaming</a> /
+            <a href="2013-2023-samsung-and-apple.html">2013-2023-samsung-and-apple</a> 
+            
+        </p>
+    </footer>
+
+    <!-- script for mobile sidebar -->
+    <script>
+        function openNav() {
+            document.getElementById("mobile_sidebar").style.width = "100%";
+        }
+        
+        function closeNav() {
+            document.getElementById("mobile_sidebar").style.width = "0%";
+        }
+    </script>
+
+    <!-- clock script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../../templates/Clock/script.js"></script> 
+</body>
+</html>

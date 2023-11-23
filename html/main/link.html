@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Simone Maccario">
+    <title>Link</title>
+    <link rel="stylesheet" href="../../styles/main/home.css">
+    <!--broken links script-->
+    <script src="../../scripts/det_brkn_links.js"></script>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #header {
+            background: #000;
+            padding: 0 1vw;
+        }
+
+        .table {
+            margin: 20vw auto;
+            width: 90%;
+            overflow-x: auto;
+        }
+        
+        table {
+            margin: auto;
+            background: #7e7e7e;
+            border: 1em groove #511111;
+            padding: 4vw;
+            width: 100%;
+        }
+
+        table * {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000;
+            font-size: 1.2em;
+        }
+
+        tr {
+            background: #b3b3b3;
+            width: 100%;
+        }
+
+        th{
+            padding: 2vw;
+        }
+
+        td {
+            padding: .5vw;
+            width: min-content;
+        }
+
+        table a {
+            color: initial;
+        }
+
+        table a:hover {
+            text-decoration: underline;
+            color: #00f;
+        }
+
+        @media (max-width: 500px) {
+            td {
+                font-size: .6em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <header id="header">
+        <h1 id="home_title"><a href="./index.html">Title</a></h1>
+            <nav id="home_nav">
+                <ul>
+                    <li><a href="./team.html">Team</a></li>
+                    <li><a href="./sources.html">Sources</a></li>
+                    <li><a href="./link.html">Link</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <div class="table">
+        <table>
+            <!-- table title -->
+            <tr>
+                <th><i>Surname</th></i>
+                <th><i>Name</th></i>
+                <th><i>Number pages</th></i>
+                <th><i>Title pages</th></i>
+            </tr>
+
+            <!-- leaders -->
+            <!-- main leaders -->
+            <tr>
+                <td>Sasanelli</td>
+                <td>Alessandra</td>
+                <td>2</td>
+                <td>
+                    <a href="../1968-1979/home_68-79.html">Home Page 1968-1979</a>
+                    <br>
+                    <a href="./sources.html">Source</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Schaufelberger</td>
+                <td>Noah</td>
+                <td>1</td>
+                <td>
+                    <a href="../1980-1990/home_80-90.html">Home Page 1980-1990</a>
+                </td>
+            </tr>
+
+            <!-- git leaders -->
+            <tr>
+                <td>La Cara</td>
+                <td>Nicolò</td>
+                <td>1</td>
+                <td>
+                    <a href="../1991-2001/home_91-01.html">Home Page 1991-2002</a>
+                </td>
+            </tr>
+
+            <!-- css leaders -->
+            <tr>
+                <td>Maccario</td>
+                <td>Simone</td>
+                <td>3</td>
+                <td>
+                    <a href="../main/index.html">Home Page</a>
+                    <br>
+                    <a href="../2002-2012/home_02-12.html">Home Page 2002-2012</a>
+                    <br>
+                    <a href="../main/link.html">Link</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Castegnero</td>
+                <td>Sebastiano</td>
+                <td>2</td>
+                <td>
+                    <a href="../main/index.html">Home Page</a>
+                    <br>
+                    <a href="../2013-2023/home_13-23.html">Home Page 2013-2023</a>
+                </td>
+            </tr>
+
+            <!-- subgroup 1 -->
+            <!-- topic leader -->
+            <tr>
+                <td>Levytsky</td>
+                <td>Valentyn</td>
+                <td>4</td>
+                <td>
+                    <a href="../1968-1979/intel-amd-foundation.html">Intel and AMD foundation</a>
+                    <br>
+                    <a href="../1968-1979/arpanet-first-message.html">APRANET's first message</a>
+                    <br>
+                    <a href="../1968-1979/alu74181.html">ALU 74181</a>
+                    <br>
+                    <a href="../1968-1979/game-of-life.html">Conway's Game of Life</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Gomez</td>
+                <td>Robert</td>
+                <td>5</td>
+                <td>
+                    <a href="../1968-1979/intel8080.html">Intel 8080 Microprocessor</a>
+                    <br>
+                    <a href="../1968-1979/microsoft-found.html">Microsoft foundation</a>
+                    <br>
+                    <a href="../1968-1979/ibm5100.html">IBM 5100</a>
+                    <br>
+                    <a href="../1968-1979/apple1.html">The Apple I</a>
+                    <br>
+                    <a href="../1968-1979/altair.html">Altair 8800</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Cazar</td>
+                <td>Adrain</td>
+                <td>4</td>
+                <td>
+                    <a href="../1968-1979/home_computer_race.html">Home computers race(Apple II, TRS-80, Commodore PET)</a>
+                    <br>
+                    <a href="../1968-1979/VAXmic.html">VAX micro computer</a>
+                    <br>
+                    <a href="../1968-1979/WorStar.html">Wordstar invention</a>
+                    <br>
+                    <a href="../1968-1979/VisiCalc.html">VisiCalc</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Damian</td>
+                <td>Vasyl</td>
+                <td>4</td>
+                <td>
+                    <a href="../1968-1979/intel4004.html">Intel 4004 Microprocessor</a>
+                    <br>
+                    <a href="../1968-1979/unix.html">Foundation of Unix</a>
+                    <br>
+                    <a href="../1968-1979/c.html">C programming language born</a>
+                    <br>
+                    <a href="../1968-1979/touchscreen.html">The release of the first touch screen</a>
+                </td>
+            </tr>
+
+            <!-- subgroup 2 -->
+            <!-- topic leader -->
+            <tr>
+                <td>Ambrogio</td>
+                <td>Andrea</td>
+                <td>4</td>
+                <td>
+                    <a href="../1980-1990/IEEE-802.3-Standards-for-Ethernet-(1983).html">IEEE 802.3 Standards for Ethernet</a>
+                    <br>
+                    <a href="../1980-1990/Ada-(1980).html">Ada</a>
+                    <br>
+                    <a href="../1980-1990/Sinclair-ZX80-(1980).html">Sinclair ZX80</a>
+                    <br>
+                    <a href="../1980-1990/C++-(1985).html">C++</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Rexha</td>
+                <td>Reina</td>
+                <td>4</td>
+                <td>
+                    <a href="../1980-1990/birth-of-IBMPC.html">IBM PC</a>
+                    <br>
+                    <a href="../1980-1990/MS-DOS.html">MS-DOS</a>
+                    <br>
+                    <a href="../1980-1990/first-virus.html">The first virus</a>
+                    <br>
+                    <a href="../1980-1990/WWW.html">World Wild Web</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Konoiuk</td>
+                <td>Nadia</td>
+                <td>4</td>
+                <td>
+                    <a href="../1980-1990/Dell.html">Dell</a>
+                    <br>
+                    <a href="../1980-1990/Windows1.html">Windows 1.0</a>
+                    <br>
+                    <a href="../1980-1990/Windows2.0.html">Windows 2.0</a>
+                    <br>
+                    <a href="../1980-1990/Model_M_keyboard.html">Model M keyboard</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Lavrov</td>
+                <td>Artur</td>
+                <td>4</td>
+                <td>
+                    <a href="../1980-1990/IRC.html">IRC</a>
+                    <br>
+                    <a href="../1980-1990/Intel80286.html">Intel 80286</a>
+                    <br>
+                    <a href="../1980-1990/Microsoft-Office-1990.html">Microsoft Office</a>
+                    <br>
+                    <a href="../1980-1990/Apple-macintosh.html">Apple Macintosh</a>
+                </td>
+            </tr>
+
+            <!-- subgroup 3 -->
+            <!-- topic leader -->
+            <tr>
+                <td>Cupryniak</td>
+                <td>Mateusz</td>
+                <td>4</td>
+                <td>
+                    <a href="../1991-2001/dawn_modern_banking.html">The dawn of modern online banking</a>
+                    <br>
+                    <a href="../1991-2001/mobiles_cameras.html">First mobile phones with cameras!</a>
+                    <br>
+                    <a href="../1991-2001/dotcom_crash.html">The spectacular crash of the dot-com bubble</a>
+                    <br>
+                    <a href="../1991-2001//apple_expansion.html">First Torrent and huge Apple expansion</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Theodoros</td>
+                <td>Thomas</td>
+                <td>4</td>
+                <td>
+                    <a href="../1991-2001/wwwondomain.html">First Website on Public Domain</a>
+                    <br>
+                    <a href="../1991-2001/wwwservers.html">All World Wide Web Data on Fifty Servers</a>
+                    <br>
+                    <a href="../1991-2001/dotcomstart.html">The start of the Dot-com Boom</a>
+                    <br>
+                    <a href="../1991-2001/macrovirus.html">The first Macro Virus ever discovered</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Frantisek</td>
+                <td>Vlcek</td>
+                <td>4</td>
+                <td>
+                    <a href="../1991-2001/dvd_invented.html">DVDs invented</a>
+                    <br>
+                    <a href="../1991-2001/apple_revival.html">Apple Revival - Steve Jobs rejoined, Microsoft investment, iMac was launcher</a>
+                    <br>
+                    <a href="../1991-2001/ibm_deepblue.html">IBM Deep Blue</a>
+                    <br>
+                    <a href="../1991-2001/google_birth.html">Google born</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Clad-Stefan</td>
+                <td>Slouv</td>
+                <td>4</td>
+                <td>
+                    <a href="../1991-2001/91.html">The creation of the world wide web</a>
+                    <br>
+                    <a href="../1991-2001/92.html">Computer viruses and some of their first appearances</a>
+                    <br>
+                    <a href="../1991-2001/91history.html">The evolution of pc hardware</a>
+                    <br>
+                    <a href="../1991-2001/92history.html">The birth of linux</a>
+                </td>
+            </tr>
+
+            <!-- subgroup 4 -->
+            <!-- topic leader -->
+            <tr>
+                <td>Cai</td>
+                <td>Xirong</td>
+                <td>4</td>
+                <td>
+                    <a href="../2002-2012/the_founding_of_facebook.html">The founding of Facebook</a>
+                    <br>
+                    <a href="../2002-2012/the_launch_of_youtube.html">The launch of YouTube</a>
+                    <br>
+                    <a href="../2002-2012/the_release_of_firefox.html">The release of Firefox</a>
+                    <br>
+                    <a href="../2002-2012/the_release_of_gmap.html">The release of Gmap</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Musa</td>
+                <td>Klaudio</td>
+                <td>4</td>
+                <td>
+                    <a href="../2002-2012/WIFI.html">The introduction of Wi-Fi </a>
+                    <br>
+                    <a href="../2002-2012/Wikipedia.html">Launch of Wikipedia</a>
+                    <br>
+                    <a href="../2002-2012/Skype.html">Lauch of Skype</a>
+                    <br>
+                    <a href="../2002-2012/IBM.html">IBM's Blue Gen</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Webb</td>
+                <td>Christian</td>
+                <td>4</td>
+                <td>
+                    <a href="../2002-2012/GoogleChrome.html">Launch of Google chrome</a>
+                    <br>
+                    <a href="../2002-2012/AppStore.html">Introduction of the App Store</a>
+                    <br>
+                    <a href="../2002-2012/CloudComputing.html">Cloud Computing</a>
+                    <br>
+                    <a href="../2002-2012/HTML5.html">Release HTML5</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Lokhorst</td>
+                <td>Nicky</td>
+                <td>4</td>
+                <td>
+                    <a href="../2002-2012/LaunchOfTwitter-1.html">Launch of Twitter</a>
+                    <br>
+                    <a href="../2002-2012/MicrosoftReleasesWindowsVista.html">Windows Vista</a>
+                    <br>
+                    <a href="../2002-2012/IphoneLaunch.html">iPhone launch</a>
+                    <br>
+                    <a href="../2002-2012/IBMroadrunner_Supercomputer.html">IBM Roadrunner supercomputer</a>
+                </td>
+            </tr>
+
+            <!-- subgroup 5 -->
+            <!-- topic leader -->
+            <tr>
+                <td>Aterini</td>
+                <td>Gaia</td>
+                <td>4</td>
+                <td>
+                    <a href="../2013-2023/Valve-and-Tesla.html">Valve's and Tesla's revolution</a>
+                    <br>
+                    <a href="../2013-2023/ChatGPT-and-AIs.html">ChatGPT and the A. I. Revolution</a>
+                    <br>
+                    <a href="../2013-2023/Crypto-winter.html">The crypto winter</a>
+                    <br>
+                    <a href="../2013-2023/Heroes.html">Heroes, dead and alive</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Chen</td>
+                <td>Xuanlin</td>
+                <td>4</td>
+                <td>
+                    <a href="../2013-2023/Big-evolution-of-processors.html">Big evolution of processors</a>
+                    <br>
+                    <a href="../2013-2023/VR-technology-booming.html">VR technology booming</a>
+                    <br>
+                    <a href="../2013-2023/AI-begins-to-be-widely-known.html">AI begins to be widely known</a>
+                    <br>
+                    <a href="../2013-2023/Famous-Softwares.html">Famous Softwares</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Makhnonosova</td>
+                <td>Daryna</td>
+                <td>4</td>
+                <td>
+                    <a href="../2013-2023//2013-2015_hardware.html">Developments in hardware</a>
+                    <br>
+                    <a href="../2013-2023/2013-2015_software.html">Software innovations</a>
+                    <br>
+                    <a href="../2013-2023/2013-2015_programming_languages.html">New programming languages</a>
+                    <br>
+                    <a href="../2013-2023/2013-2015_historical_events.html">Histrorical events</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Noshadha</td>
+                <td>Daniel</td>
+                <td>4</td>
+                <td>
+                    <a href="../2013-2023/2013-2023-breakthrough.html">Breakthrough in Technologies</a>
+                    <br>
+                    <a href="../2013-2023/2013-2023-easy-gaming.html">Gaming was never so exciting</a>
+                    <br>
+                    <a href="../2013-2023/2013-2023-software-changes.html">Year of innovations</a>
+                    <br>
+                    <a href="../2013-2023/2013-2023-samsung-and-apple.html">Phones will never be the same</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- footer -->
+    <footer id="footer">
+        &copy; Group 1 - Software Atelier 2023
+    </footer>
+</body>
+</html>

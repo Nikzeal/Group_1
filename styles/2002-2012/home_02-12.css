@@ -296,6 +296,7 @@ body {
     align-items: center;
     justify-content: center;
     transition: 0.3s;
+    margin: 1vw 0 2vw 0;
 }
 
 .circle a {
@@ -411,7 +412,7 @@ body {
 }
 
 .row section .details .sec_title {
-    /* font-size: 22px; */
+    font-size: 1.5em;
     font-weight: 600;
 }
 
